@@ -26,7 +26,8 @@ Set $ext-use-all-fa-icons to true to override this:
 $ext-use-all-fa-icons: true;
 ```
 
-To enable icon that is being used by application, construct the variable as from icon name and prefix it with 'ext-use-' and set it to true, for example: 
+To enable icon that is being used by application, in your theme scr/Component.scss file construct the variable using icon name and prefix it with 'ext-use-' and set it to true, for example: 
 ```
 $ext-use-fa-search: true;
+$ext-use-fa-home: true;
 ```
