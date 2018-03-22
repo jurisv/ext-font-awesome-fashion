@@ -4,796 +4,4164 @@
 $ext-fa-vars-important: dynamic(true);
 
 @mixin ext-declare-fa-var($value) {
-    @if $ext-fa-vars-important {
-        content: $value !important;
-    } @else {
-        content: $value;
-    }
+  @if $ext-fa-vars-important {
+    content: $value !important;
+  } @else {
+    content: $value;
+  }
 }
 
-.#{$fa-css-prefix}-glass:before { @include ext-declare-fa-var($fa-var-glass); }
-.#{$fa-css-prefix}-music:before { @include ext-declare-fa-var($fa-var-music); }
-.#{$fa-css-prefix}-search:before { @include ext-declare-fa-var($fa-var-search); }
-.#{$fa-css-prefix}-envelope-o:before { @include ext-declare-fa-var($fa-var-envelope-o); }
-.#{$fa-css-prefix}-heart:before { @include ext-declare-fa-var($fa-var-heart); }
-.#{$fa-css-prefix}-star:before { @include ext-declare-fa-var($fa-var-star); }
-.#{$fa-css-prefix}-star-o:before { @include ext-declare-fa-var($fa-var-star-o); }
-.#{$fa-css-prefix}-user:before { @include ext-declare-fa-var($fa-var-user); }
-.#{$fa-css-prefix}-film:before { @include ext-declare-fa-var($fa-var-film); }
-.#{$fa-css-prefix}-th-large:before { @include ext-declare-fa-var($fa-var-th-large); }
-.#{$fa-css-prefix}-th:before { @include ext-declare-fa-var($fa-var-th); }
-.#{$fa-css-prefix}-th-list:before { @include ext-declare-fa-var($fa-var-th-list); }
-.#{$fa-css-prefix}-check:before { @include ext-declare-fa-var($fa-var-check); }
-.#{$fa-css-prefix}-remove:before,
-.#{$fa-css-prefix}-close:before,
-.#{$fa-css-prefix}-times:before { @include ext-declare-fa-var($fa-var-times); }
-.#{$fa-css-prefix}-search-plus:before { @include ext-declare-fa-var($fa-var-search-plus); }
-.#{$fa-css-prefix}-search-minus:before { @include ext-declare-fa-var($fa-var-search-minus); }
-.#{$fa-css-prefix}-power-off:before { @include ext-declare-fa-var($fa-var-power-off); }
-.#{$fa-css-prefix}-signal:before { @include ext-declare-fa-var($fa-var-signal); }
-.#{$fa-css-prefix}-gear:before,
-.#{$fa-css-prefix}-cog:before { @include ext-declare-fa-var($fa-var-cog); }
-.#{$fa-css-prefix}-trash-o:before { @include ext-declare-fa-var($fa-var-trash-o); }
-.#{$fa-css-prefix}-home:before { @include ext-declare-fa-var($fa-var-home); }
-.#{$fa-css-prefix}-file-o:before { @include ext-declare-fa-var($fa-var-file-o); }
-.#{$fa-css-prefix}-clock-o:before { @include ext-declare-fa-var($fa-var-clock-o); }
-.#{$fa-css-prefix}-road:before { @include ext-declare-fa-var($fa-var-road); }
-.#{$fa-css-prefix}-download:before { @include ext-declare-fa-var($fa-var-download); }
-.#{$fa-css-prefix}-arrow-circle-o-down:before { @include ext-declare-fa-var($fa-var-arrow-circle-o-down); }
-.#{$fa-css-prefix}-arrow-circle-o-up:before { @include ext-declare-fa-var($fa-var-arrow-circle-o-up); }
-.#{$fa-css-prefix}-inbox:before { @include ext-declare-fa-var($fa-var-inbox); }
-.#{$fa-css-prefix}-play-circle-o:before { @include ext-declare-fa-var($fa-var-play-circle-o); }
-.#{$fa-css-prefix}-rotate-right:before,
-.#{$fa-css-prefix}-repeat:before { @include ext-declare-fa-var($fa-var-repeat); }
-.#{$fa-css-prefix}-refresh:before { @include ext-declare-fa-var($fa-var-refresh); }
-.#{$fa-css-prefix}-list-alt:before { @include ext-declare-fa-var($fa-var-list-alt); }
-.#{$fa-css-prefix}-lock:before { @include ext-declare-fa-var($fa-var-lock); }
-.#{$fa-css-prefix}-flag:before { @include ext-declare-fa-var($fa-var-flag); }
-.#{$fa-css-prefix}-headphones:before { @include ext-declare-fa-var($fa-var-headphones); }
-.#{$fa-css-prefix}-volume-off:before { @include ext-declare-fa-var($fa-var-volume-off); }
-.#{$fa-css-prefix}-volume-down:before { @include ext-declare-fa-var($fa-var-volume-down); }
-.#{$fa-css-prefix}-volume-up:before { @include ext-declare-fa-var($fa-var-volume-up); }
-.#{$fa-css-prefix}-qrcode:before { @include ext-declare-fa-var($fa-var-qrcode); }
-.#{$fa-css-prefix}-barcode:before { @include ext-declare-fa-var($fa-var-barcode); }
-.#{$fa-css-prefix}-tag:before { @include ext-declare-fa-var($fa-var-tag); }
-.#{$fa-css-prefix}-tags:before { @include ext-declare-fa-var($fa-var-tags); }
-.#{$fa-css-prefix}-book:before { @include ext-declare-fa-var($fa-var-book); }
-.#{$fa-css-prefix}-bookmark:before { @include ext-declare-fa-var($fa-var-bookmark); }
-.#{$fa-css-prefix}-print:before { @include ext-declare-fa-var($fa-var-print); }
-.#{$fa-css-prefix}-camera:before { @include ext-declare-fa-var($fa-var-camera); }
-.#{$fa-css-prefix}-font:before { @include ext-declare-fa-var($fa-var-font); }
-.#{$fa-css-prefix}-bold:before { @include ext-declare-fa-var($fa-var-bold); }
-.#{$fa-css-prefix}-italic:before { @include ext-declare-fa-var($fa-var-italic); }
-.#{$fa-css-prefix}-text-height:before { @include ext-declare-fa-var($fa-var-text-height); }
-.#{$fa-css-prefix}-text-width:before { @include ext-declare-fa-var($fa-var-text-width); }
-.#{$fa-css-prefix}-align-left:before { @include ext-declare-fa-var($fa-var-align-left); }
-.#{$fa-css-prefix}-align-center:before { @include ext-declare-fa-var($fa-var-align-center); }
-.#{$fa-css-prefix}-align-right:before { @include ext-declare-fa-var($fa-var-align-right); }
-.#{$fa-css-prefix}-align-justify:before { @include ext-declare-fa-var($fa-var-align-justify); }
-.#{$fa-css-prefix}-list:before { @include ext-declare-fa-var($fa-var-list); }
-.#{$fa-css-prefix}-dedent:before,
-.#{$fa-css-prefix}-outdent:before { @include ext-declare-fa-var($fa-var-outdent); }
-.#{$fa-css-prefix}-indent:before { @include ext-declare-fa-var($fa-var-indent); }
-.#{$fa-css-prefix}-video-camera:before { @include ext-declare-fa-var($fa-var-video-camera); }
-.#{$fa-css-prefix}-photo:before,
-.#{$fa-css-prefix}-image:before,
-.#{$fa-css-prefix}-picture-o:before { @include ext-declare-fa-var($fa-var-picture-o); }
-.#{$fa-css-prefix}-pencil:before { @include ext-declare-fa-var($fa-var-pencil); }
-.#{$fa-css-prefix}-map-marker:before { @include ext-declare-fa-var($fa-var-map-marker); }
-.#{$fa-css-prefix}-adjust:before { @include ext-declare-fa-var($fa-var-adjust); }
-.#{$fa-css-prefix}-tint:before { @include ext-declare-fa-var($fa-var-tint); }
-.#{$fa-css-prefix}-edit:before,
-.#{$fa-css-prefix}-pencil-square-o:before { @include ext-declare-fa-var($fa-var-pencil-square-o); }
-.#{$fa-css-prefix}-share-square-o:before { @include ext-declare-fa-var($fa-var-share-square-o); }
-.#{$fa-css-prefix}-check-square-o:before { @include ext-declare-fa-var($fa-var-check-square-o); }
-.#{$fa-css-prefix}-arrows:before { @include ext-declare-fa-var($fa-var-arrows); }
-.#{$fa-css-prefix}-step-backward:before { @include ext-declare-fa-var($fa-var-step-backward); }
-.#{$fa-css-prefix}-fast-backward:before { @include ext-declare-fa-var($fa-var-fast-backward); }
-.#{$fa-css-prefix}-backward:before { @include ext-declare-fa-var($fa-var-backward); }
-.#{$fa-css-prefix}-play:before { @include ext-declare-fa-var($fa-var-play); }
-.#{$fa-css-prefix}-pause:before { @include ext-declare-fa-var($fa-var-pause); }
-.#{$fa-css-prefix}-stop:before { @include ext-declare-fa-var($fa-var-stop); }
-.#{$fa-css-prefix}-forward:before { @include ext-declare-fa-var($fa-var-forward); }
-.#{$fa-css-prefix}-fast-forward:before { @include ext-declare-fa-var($fa-var-fast-forward); }
-.#{$fa-css-prefix}-step-forward:before { @include ext-declare-fa-var($fa-var-step-forward); }
-.#{$fa-css-prefix}-eject:before { @include ext-declare-fa-var($fa-var-eject); }
-.#{$fa-css-prefix}-chevron-left:before { @include ext-declare-fa-var($fa-var-chevron-left); }
-.#{$fa-css-prefix}-chevron-right:before { @include ext-declare-fa-var($fa-var-chevron-right); }
-.#{$fa-css-prefix}-plus-circle:before { @include ext-declare-fa-var($fa-var-plus-circle); }
-.#{$fa-css-prefix}-minus-circle:before { @include ext-declare-fa-var($fa-var-minus-circle); }
-.#{$fa-css-prefix}-times-circle:before { @include ext-declare-fa-var($fa-var-times-circle); }
-.#{$fa-css-prefix}-check-circle:before { @include ext-declare-fa-var($fa-var-check-circle); }
-.#{$fa-css-prefix}-question-circle:before { @include ext-declare-fa-var($fa-var-question-circle); }
-.#{$fa-css-prefix}-info-circle:before { @include ext-declare-fa-var($fa-var-info-circle); }
-.#{$fa-css-prefix}-crosshairs:before { @include ext-declare-fa-var($fa-var-crosshairs); }
-.#{$fa-css-prefix}-times-circle-o:before { @include ext-declare-fa-var($fa-var-times-circle-o); }
-.#{$fa-css-prefix}-check-circle-o:before { @include ext-declare-fa-var($fa-var-check-circle-o); }
-.#{$fa-css-prefix}-ban:before { @include ext-declare-fa-var($fa-var-ban); }
-.#{$fa-css-prefix}-arrow-left:before { @include ext-declare-fa-var($fa-var-arrow-left); }
-.#{$fa-css-prefix}-arrow-right:before { @include ext-declare-fa-var($fa-var-arrow-right); }
-.#{$fa-css-prefix}-arrow-up:before { @include ext-declare-fa-var($fa-var-arrow-up); }
-.#{$fa-css-prefix}-arrow-down:before { @include ext-declare-fa-var($fa-var-arrow-down); }
-.#{$fa-css-prefix}-mail-forward:before,
-.#{$fa-css-prefix}-share:before { @include ext-declare-fa-var($fa-var-share); }
-.#{$fa-css-prefix}-expand:before { @include ext-declare-fa-var($fa-var-expand); }
-.#{$fa-css-prefix}-compress:before { @include ext-declare-fa-var($fa-var-compress); }
-.#{$fa-css-prefix}-plus:before { @include ext-declare-fa-var($fa-var-plus); }
-.#{$fa-css-prefix}-minus:before { @include ext-declare-fa-var($fa-var-minus); }
-.#{$fa-css-prefix}-asterisk:before { @include ext-declare-fa-var($fa-var-asterisk); }
-.#{$fa-css-prefix}-exclamation-circle:before { @include ext-declare-fa-var($fa-var-exclamation-circle); }
-.#{$fa-css-prefix}-gift:before { @include ext-declare-fa-var($fa-var-gift); }
-.#{$fa-css-prefix}-leaf:before { @include ext-declare-fa-var($fa-var-leaf); }
-.#{$fa-css-prefix}-fire:before { @include ext-declare-fa-var($fa-var-fire); }
-.#{$fa-css-prefix}-eye:before { @include ext-declare-fa-var($fa-var-eye); }
-.#{$fa-css-prefix}-eye-slash:before { @include ext-declare-fa-var($fa-var-eye-slash); }
-.#{$fa-css-prefix}-warning:before,
-.#{$fa-css-prefix}-exclamation-triangle:before { @include ext-declare-fa-var($fa-var-exclamation-triangle); }
-.#{$fa-css-prefix}-plane:before { @include ext-declare-fa-var($fa-var-plane); }
-.#{$fa-css-prefix}-calendar:before { @include ext-declare-fa-var($fa-var-calendar); }
-.#{$fa-css-prefix}-random:before { @include ext-declare-fa-var($fa-var-random); }
-.#{$fa-css-prefix}-comment:before { @include ext-declare-fa-var($fa-var-comment); }
-.#{$fa-css-prefix}-magnet:before { @include ext-declare-fa-var($fa-var-magnet); }
-.#{$fa-css-prefix}-chevron-up:before { @include ext-declare-fa-var($fa-var-chevron-up); }
-.#{$fa-css-prefix}-chevron-down:before { @include ext-declare-fa-var($fa-var-chevron-down); }
-.#{$fa-css-prefix}-retweet:before { @include ext-declare-fa-var($fa-var-retweet); }
-.#{$fa-css-prefix}-shopping-cart:before { @include ext-declare-fa-var($fa-var-shopping-cart); }
-.#{$fa-css-prefix}-folder:before { @include ext-declare-fa-var($fa-var-folder); }
-.#{$fa-css-prefix}-folder-open:before { @include ext-declare-fa-var($fa-var-folder-open); }
-.#{$fa-css-prefix}-arrows-v:before { @include ext-declare-fa-var($fa-var-arrows-v); }
-.#{$fa-css-prefix}-arrows-h:before { @include ext-declare-fa-var($fa-var-arrows-h); }
-.#{$fa-css-prefix}-bar-chart-o:before,
-.#{$fa-css-prefix}-bar-chart:before { @include ext-declare-fa-var($fa-var-bar-chart); }
-.#{$fa-css-prefix}-twitter-square:before { @include ext-declare-fa-var($fa-var-twitter-square); }
-.#{$fa-css-prefix}-facebook-square:before { @include ext-declare-fa-var($fa-var-facebook-square); }
-.#{$fa-css-prefix}-camera-retro:before { @include ext-declare-fa-var($fa-var-camera-retro); }
-.#{$fa-css-prefix}-key:before { @include ext-declare-fa-var($fa-var-key); }
-.#{$fa-css-prefix}-gears:before,
-.#{$fa-css-prefix}-cogs:before { @include ext-declare-fa-var($fa-var-cogs); }
-.#{$fa-css-prefix}-comments:before { @include ext-declare-fa-var($fa-var-comments); }
-.#{$fa-css-prefix}-thumbs-o-up:before { @include ext-declare-fa-var($fa-var-thumbs-o-up); }
-.#{$fa-css-prefix}-thumbs-o-down:before { @include ext-declare-fa-var($fa-var-thumbs-o-down); }
-.#{$fa-css-prefix}-star-half:before { @include ext-declare-fa-var($fa-var-star-half); }
-.#{$fa-css-prefix}-heart-o:before { @include ext-declare-fa-var($fa-var-heart-o); }
-.#{$fa-css-prefix}-sign-out:before { @include ext-declare-fa-var($fa-var-sign-out); }
-.#{$fa-css-prefix}-linkedin-square:before { @include ext-declare-fa-var($fa-var-linkedin-square); }
-.#{$fa-css-prefix}-thumb-tack:before { @include ext-declare-fa-var($fa-var-thumb-tack); }
-.#{$fa-css-prefix}-external-link:before { @include ext-declare-fa-var($fa-var-external-link); }
-.#{$fa-css-prefix}-sign-in:before { @include ext-declare-fa-var($fa-var-sign-in); }
-.#{$fa-css-prefix}-trophy:before { @include ext-declare-fa-var($fa-var-trophy); }
-.#{$fa-css-prefix}-github-square:before { @include ext-declare-fa-var($fa-var-github-square); }
-.#{$fa-css-prefix}-upload:before { @include ext-declare-fa-var($fa-var-upload); }
-.#{$fa-css-prefix}-lemon-o:before { @include ext-declare-fa-var($fa-var-lemon-o); }
-.#{$fa-css-prefix}-phone:before { @include ext-declare-fa-var($fa-var-phone); }
-.#{$fa-css-prefix}-square-o:before { @include ext-declare-fa-var($fa-var-square-o); }
-.#{$fa-css-prefix}-bookmark-o:before { @include ext-declare-fa-var($fa-var-bookmark-o); }
-.#{$fa-css-prefix}-phone-square:before { @include ext-declare-fa-var($fa-var-phone-square); }
-.#{$fa-css-prefix}-twitter:before { @include ext-declare-fa-var($fa-var-twitter); }
-.#{$fa-css-prefix}-facebook-f:before,
-.#{$fa-css-prefix}-facebook:before { @include ext-declare-fa-var($fa-var-facebook); }
-.#{$fa-css-prefix}-github:before { @include ext-declare-fa-var($fa-var-github); }
-.#{$fa-css-prefix}-unlock:before { @include ext-declare-fa-var($fa-var-unlock); }
-.#{$fa-css-prefix}-credit-card:before { @include ext-declare-fa-var($fa-var-credit-card); }
-.#{$fa-css-prefix}-feed:before,
-.#{$fa-css-prefix}-rss:before { @include ext-declare-fa-var($fa-var-rss); }
-.#{$fa-css-prefix}-hdd-o:before { @include ext-declare-fa-var($fa-var-hdd-o); }
-.#{$fa-css-prefix}-bullhorn:before { @include ext-declare-fa-var($fa-var-bullhorn); }
-.#{$fa-css-prefix}-bell:before { @include ext-declare-fa-var($fa-var-bell); }
-.#{$fa-css-prefix}-certificate:before { @include ext-declare-fa-var($fa-var-certificate); }
-.#{$fa-css-prefix}-hand-o-right:before { @include ext-declare-fa-var($fa-var-hand-o-right); }
-.#{$fa-css-prefix}-hand-o-left:before { @include ext-declare-fa-var($fa-var-hand-o-left); }
-.#{$fa-css-prefix}-hand-o-up:before { @include ext-declare-fa-var($fa-var-hand-o-up); }
-.#{$fa-css-prefix}-hand-o-down:before { @include ext-declare-fa-var($fa-var-hand-o-down); }
-.#{$fa-css-prefix}-arrow-circle-left:before { @include ext-declare-fa-var($fa-var-arrow-circle-left); }
-.#{$fa-css-prefix}-arrow-circle-right:before { @include ext-declare-fa-var($fa-var-arrow-circle-right); }
-.#{$fa-css-prefix}-arrow-circle-up:before { @include ext-declare-fa-var($fa-var-arrow-circle-up); }
-.#{$fa-css-prefix}-arrow-circle-down:before { @include ext-declare-fa-var($fa-var-arrow-circle-down); }
-.#{$fa-css-prefix}-globe:before { @include ext-declare-fa-var($fa-var-globe); }
-.#{$fa-css-prefix}-wrench:before { @include ext-declare-fa-var($fa-var-wrench); }
-.#{$fa-css-prefix}-tasks:before { @include ext-declare-fa-var($fa-var-tasks); }
-.#{$fa-css-prefix}-filter:before { @include ext-declare-fa-var($fa-var-filter); }
-.#{$fa-css-prefix}-briefcase:before { @include ext-declare-fa-var($fa-var-briefcase); }
-.#{$fa-css-prefix}-arrows-alt:before { @include ext-declare-fa-var($fa-var-arrows-alt); }
-.#{$fa-css-prefix}-group:before,
-.#{$fa-css-prefix}-users:before { @include ext-declare-fa-var($fa-var-users); }
-.#{$fa-css-prefix}-chain:before,
-.#{$fa-css-prefix}-link:before { @include ext-declare-fa-var($fa-var-link); }
-.#{$fa-css-prefix}-cloud:before { @include ext-declare-fa-var($fa-var-cloud); }
-.#{$fa-css-prefix}-flask:before { @include ext-declare-fa-var($fa-var-flask); }
-.#{$fa-css-prefix}-cut:before,
-.#{$fa-css-prefix}-scissors:before { @include ext-declare-fa-var($fa-var-scissors); }
-.#{$fa-css-prefix}-copy:before,
-.#{$fa-css-prefix}-files-o:before { @include ext-declare-fa-var($fa-var-files-o); }
-.#{$fa-css-prefix}-paperclip:before { @include ext-declare-fa-var($fa-var-paperclip); }
-.#{$fa-css-prefix}-save:before,
-.#{$fa-css-prefix}-floppy-o:before { @include ext-declare-fa-var($fa-var-floppy-o); }
-.#{$fa-css-prefix}-square:before { @include ext-declare-fa-var($fa-var-square); }
-.#{$fa-css-prefix}-navicon:before,
-.#{$fa-css-prefix}-reorder:before,
-.#{$fa-css-prefix}-bars:before { @include ext-declare-fa-var($fa-var-bars); }
-.#{$fa-css-prefix}-list-ul:before { @include ext-declare-fa-var($fa-var-list-ul); }
-.#{$fa-css-prefix}-list-ol:before { @include ext-declare-fa-var($fa-var-list-ol); }
-.#{$fa-css-prefix}-strikethrough:before { @include ext-declare-fa-var($fa-var-strikethrough); }
-.#{$fa-css-prefix}-underline:before { @include ext-declare-fa-var($fa-var-underline); }
-.#{$fa-css-prefix}-table:before { @include ext-declare-fa-var($fa-var-table); }
-.#{$fa-css-prefix}-magic:before { @include ext-declare-fa-var($fa-var-magic); }
-.#{$fa-css-prefix}-truck:before { @include ext-declare-fa-var($fa-var-truck); }
-.#{$fa-css-prefix}-pinterest:before { @include ext-declare-fa-var($fa-var-pinterest); }
-.#{$fa-css-prefix}-pinterest-square:before { @include ext-declare-fa-var($fa-var-pinterest-square); }
-.#{$fa-css-prefix}-google-plus-square:before { @include ext-declare-fa-var($fa-var-google-plus-square); }
-.#{$fa-css-prefix}-google-plus:before { @include ext-declare-fa-var($fa-var-google-plus); }
-.#{$fa-css-prefix}-money:before { @include ext-declare-fa-var($fa-var-money); }
-.#{$fa-css-prefix}-caret-down:before { @include ext-declare-fa-var($fa-var-caret-down); }
-.#{$fa-css-prefix}-caret-up:before { @include ext-declare-fa-var($fa-var-caret-up); }
-.#{$fa-css-prefix}-caret-left:before { @include ext-declare-fa-var($fa-var-caret-left); }
-.#{$fa-css-prefix}-caret-right:before { @include ext-declare-fa-var($fa-var-caret-right); }
-.#{$fa-css-prefix}-columns:before { @include ext-declare-fa-var($fa-var-columns); }
-.#{$fa-css-prefix}-unsorted:before,
-.#{$fa-css-prefix}-sort:before { @include ext-declare-fa-var($fa-var-sort); }
-.#{$fa-css-prefix}-sort-down:before,
-.#{$fa-css-prefix}-sort-desc:before { @include ext-declare-fa-var($fa-var-sort-desc); }
-.#{$fa-css-prefix}-sort-up:before,
-.#{$fa-css-prefix}-sort-asc:before { @include ext-declare-fa-var($fa-var-sort-asc); }
-.#{$fa-css-prefix}-envelope:before { @include ext-declare-fa-var($fa-var-envelope); }
-.#{$fa-css-prefix}-linkedin:before { @include ext-declare-fa-var($fa-var-linkedin); }
-.#{$fa-css-prefix}-rotate-left:before,
-.#{$fa-css-prefix}-undo:before { @include ext-declare-fa-var($fa-var-undo); }
-.#{$fa-css-prefix}-legal:before,
-.#{$fa-css-prefix}-gavel:before { @include ext-declare-fa-var($fa-var-gavel); }
-.#{$fa-css-prefix}-dashboard:before,
-.#{$fa-css-prefix}-tachometer:before { @include ext-declare-fa-var($fa-var-tachometer); }
-.#{$fa-css-prefix}-comment-o:before { @include ext-declare-fa-var($fa-var-comment-o); }
-.#{$fa-css-prefix}-comments-o:before { @include ext-declare-fa-var($fa-var-comments-o); }
-.#{$fa-css-prefix}-flash:before,
-.#{$fa-css-prefix}-bolt:before { @include ext-declare-fa-var($fa-var-bolt); }
-.#{$fa-css-prefix}-sitemap:before { @include ext-declare-fa-var($fa-var-sitemap); }
-.#{$fa-css-prefix}-umbrella:before { @include ext-declare-fa-var($fa-var-umbrella); }
-.#{$fa-css-prefix}-paste:before,
-.#{$fa-css-prefix}-clipboard:before { @include ext-declare-fa-var($fa-var-clipboard); }
-.#{$fa-css-prefix}-lightbulb-o:before { @include ext-declare-fa-var($fa-var-lightbulb-o); }
-.#{$fa-css-prefix}-exchange:before { @include ext-declare-fa-var($fa-var-exchange); }
-.#{$fa-css-prefix}-cloud-download:before { @include ext-declare-fa-var($fa-var-cloud-download); }
-.#{$fa-css-prefix}-cloud-upload:before { @include ext-declare-fa-var($fa-var-cloud-upload); }
-.#{$fa-css-prefix}-user-md:before { @include ext-declare-fa-var($fa-var-user-md); }
-.#{$fa-css-prefix}-stethoscope:before { @include ext-declare-fa-var($fa-var-stethoscope); }
-.#{$fa-css-prefix}-suitcase:before { @include ext-declare-fa-var($fa-var-suitcase); }
-.#{$fa-css-prefix}-bell-o:before { @include ext-declare-fa-var($fa-var-bell-o); }
-.#{$fa-css-prefix}-coffee:before { @include ext-declare-fa-var($fa-var-coffee); }
-.#{$fa-css-prefix}-cutlery:before { @include ext-declare-fa-var($fa-var-cutlery); }
-.#{$fa-css-prefix}-file-text-o:before { @include ext-declare-fa-var($fa-var-file-text-o); }
-.#{$fa-css-prefix}-building-o:before { @include ext-declare-fa-var($fa-var-building-o); }
-.#{$fa-css-prefix}-hospital-o:before { @include ext-declare-fa-var($fa-var-hospital-o); }
-.#{$fa-css-prefix}-ambulance:before { @include ext-declare-fa-var($fa-var-ambulance); }
-.#{$fa-css-prefix}-medkit:before { @include ext-declare-fa-var($fa-var-medkit); }
-.#{$fa-css-prefix}-fighter-jet:before { @include ext-declare-fa-var($fa-var-fighter-jet); }
-.#{$fa-css-prefix}-beer:before { @include ext-declare-fa-var($fa-var-beer); }
-.#{$fa-css-prefix}-h-square:before { @include ext-declare-fa-var($fa-var-h-square); }
-.#{$fa-css-prefix}-plus-square:before { @include ext-declare-fa-var($fa-var-plus-square); }
-.#{$fa-css-prefix}-angle-double-left:before { @include ext-declare-fa-var($fa-var-angle-double-left); }
-.#{$fa-css-prefix}-angle-double-right:before { @include ext-declare-fa-var($fa-var-angle-double-right); }
-.#{$fa-css-prefix}-angle-double-up:before { @include ext-declare-fa-var($fa-var-angle-double-up); }
-.#{$fa-css-prefix}-angle-double-down:before { @include ext-declare-fa-var($fa-var-angle-double-down); }
-.#{$fa-css-prefix}-angle-left:before { @include ext-declare-fa-var($fa-var-angle-left); }
-.#{$fa-css-prefix}-angle-right:before { @include ext-declare-fa-var($fa-var-angle-right); }
-.#{$fa-css-prefix}-angle-up:before { @include ext-declare-fa-var($fa-var-angle-up); }
-.#{$fa-css-prefix}-angle-down:before { @include ext-declare-fa-var($fa-var-angle-down); }
-.#{$fa-css-prefix}-desktop:before { @include ext-declare-fa-var($fa-var-desktop); }
-.#{$fa-css-prefix}-laptop:before { @include ext-declare-fa-var($fa-var-laptop); }
-.#{$fa-css-prefix}-tablet:before { @include ext-declare-fa-var($fa-var-tablet); }
-.#{$fa-css-prefix}-mobile-phone:before,
-.#{$fa-css-prefix}-mobile:before { @include ext-declare-fa-var($fa-var-mobile); }
-.#{$fa-css-prefix}-circle-o:before { @include ext-declare-fa-var($fa-var-circle-o); }
-.#{$fa-css-prefix}-quote-left:before { @include ext-declare-fa-var($fa-var-quote-left); }
-.#{$fa-css-prefix}-quote-right:before { @include ext-declare-fa-var($fa-var-quote-right); }
-.#{$fa-css-prefix}-spinner:before { @include ext-declare-fa-var($fa-var-spinner); }
-.#{$fa-css-prefix}-circle:before { @include ext-declare-fa-var($fa-var-circle); }
-.#{$fa-css-prefix}-mail-reply:before,
-.#{$fa-css-prefix}-reply:before { @include ext-declare-fa-var($fa-var-reply); }
-.#{$fa-css-prefix}-github-alt:before { @include ext-declare-fa-var($fa-var-github-alt); }
-.#{$fa-css-prefix}-folder-o:before { @include ext-declare-fa-var($fa-var-folder-o); }
-.#{$fa-css-prefix}-folder-open-o:before { @include ext-declare-fa-var($fa-var-folder-open-o); }
-.#{$fa-css-prefix}-smile-o:before { @include ext-declare-fa-var($fa-var-smile-o); }
-.#{$fa-css-prefix}-frown-o:before { @include ext-declare-fa-var($fa-var-frown-o); }
-.#{$fa-css-prefix}-meh-o:before { @include ext-declare-fa-var($fa-var-meh-o); }
-.#{$fa-css-prefix}-gamepad:before { @include ext-declare-fa-var($fa-var-gamepad); }
-.#{$fa-css-prefix}-keyboard-o:before { @include ext-declare-fa-var($fa-var-keyboard-o); }
-.#{$fa-css-prefix}-flag-o:before { @include ext-declare-fa-var($fa-var-flag-o); }
-.#{$fa-css-prefix}-flag-checkered:before { @include ext-declare-fa-var($fa-var-flag-checkered); }
-.#{$fa-css-prefix}-terminal:before { @include ext-declare-fa-var($fa-var-terminal); }
-.#{$fa-css-prefix}-code:before { @include ext-declare-fa-var($fa-var-code); }
-.#{$fa-css-prefix}-mail-reply-all:before,
-.#{$fa-css-prefix}-reply-all:before { @include ext-declare-fa-var($fa-var-reply-all); }
-.#{$fa-css-prefix}-star-half-empty:before,
-.#{$fa-css-prefix}-star-half-full:before,
-.#{$fa-css-prefix}-star-half-o:before { @include ext-declare-fa-var($fa-var-star-half-o); }
-.#{$fa-css-prefix}-location-arrow:before { @include ext-declare-fa-var($fa-var-location-arrow); }
-.#{$fa-css-prefix}-crop:before { @include ext-declare-fa-var($fa-var-crop); }
-.#{$fa-css-prefix}-code-fork:before { @include ext-declare-fa-var($fa-var-code-fork); }
-.#{$fa-css-prefix}-unlink:before,
-.#{$fa-css-prefix}-chain-broken:before { @include ext-declare-fa-var($fa-var-chain-broken); }
-.#{$fa-css-prefix}-question:before { @include ext-declare-fa-var($fa-var-question); }
-.#{$fa-css-prefix}-info:before { @include ext-declare-fa-var($fa-var-info); }
-.#{$fa-css-prefix}-exclamation:before { @include ext-declare-fa-var($fa-var-exclamation); }
-.#{$fa-css-prefix}-superscript:before { @include ext-declare-fa-var($fa-var-superscript); }
-.#{$fa-css-prefix}-subscript:before { @include ext-declare-fa-var($fa-var-subscript); }
-.#{$fa-css-prefix}-eraser:before { @include ext-declare-fa-var($fa-var-eraser); }
-.#{$fa-css-prefix}-puzzle-piece:before { @include ext-declare-fa-var($fa-var-puzzle-piece); }
-.#{$fa-css-prefix}-microphone:before { @include ext-declare-fa-var($fa-var-microphone); }
-.#{$fa-css-prefix}-microphone-slash:before { @include ext-declare-fa-var($fa-var-microphone-slash); }
-.#{$fa-css-prefix}-shield:before { @include ext-declare-fa-var($fa-var-shield); }
-.#{$fa-css-prefix}-calendar-o:before { @include ext-declare-fa-var($fa-var-calendar-o); }
-.#{$fa-css-prefix}-fire-extinguisher:before { @include ext-declare-fa-var($fa-var-fire-extinguisher); }
-.#{$fa-css-prefix}-rocket:before { @include ext-declare-fa-var($fa-var-rocket); }
-.#{$fa-css-prefix}-maxcdn:before { @include ext-declare-fa-var($fa-var-maxcdn); }
-.#{$fa-css-prefix}-chevron-circle-left:before { @include ext-declare-fa-var($fa-var-chevron-circle-left); }
-.#{$fa-css-prefix}-chevron-circle-right:before { @include ext-declare-fa-var($fa-var-chevron-circle-right); }
-.#{$fa-css-prefix}-chevron-circle-up:before { @include ext-declare-fa-var($fa-var-chevron-circle-up); }
-.#{$fa-css-prefix}-chevron-circle-down:before { @include ext-declare-fa-var($fa-var-chevron-circle-down); }
-.#{$fa-css-prefix}-html5:before { @include ext-declare-fa-var($fa-var-html5); }
-.#{$fa-css-prefix}-css3:before { @include ext-declare-fa-var($fa-var-css3); }
-.#{$fa-css-prefix}-anchor:before { @include ext-declare-fa-var($fa-var-anchor); }
-.#{$fa-css-prefix}-unlock-alt:before { @include ext-declare-fa-var($fa-var-unlock-alt); }
-.#{$fa-css-prefix}-bullseye:before { @include ext-declare-fa-var($fa-var-bullseye); }
-.#{$fa-css-prefix}-ellipsis-h:before { @include ext-declare-fa-var($fa-var-ellipsis-h); }
-.#{$fa-css-prefix}-ellipsis-v:before { @include ext-declare-fa-var($fa-var-ellipsis-v); }
-.#{$fa-css-prefix}-rss-square:before { @include ext-declare-fa-var($fa-var-rss-square); }
-.#{$fa-css-prefix}-play-circle:before { @include ext-declare-fa-var($fa-var-play-circle); }
-.#{$fa-css-prefix}-ticket:before { @include ext-declare-fa-var($fa-var-ticket); }
-.#{$fa-css-prefix}-minus-square:before { @include ext-declare-fa-var($fa-var-minus-square); }
-.#{$fa-css-prefix}-minus-square-o:before { @include ext-declare-fa-var($fa-var-minus-square-o); }
-.#{$fa-css-prefix}-level-up:before { @include ext-declare-fa-var($fa-var-level-up); }
-.#{$fa-css-prefix}-level-down:before { @include ext-declare-fa-var($fa-var-level-down); }
-.#{$fa-css-prefix}-check-square:before { @include ext-declare-fa-var($fa-var-check-square); }
-.#{$fa-css-prefix}-pencil-square:before { @include ext-declare-fa-var($fa-var-pencil-square); }
-.#{$fa-css-prefix}-external-link-square:before { @include ext-declare-fa-var($fa-var-external-link-square); }
-.#{$fa-css-prefix}-share-square:before { @include ext-declare-fa-var($fa-var-share-square); }
-.#{$fa-css-prefix}-compass:before { @include ext-declare-fa-var($fa-var-compass); }
-.#{$fa-css-prefix}-toggle-down:before,
-.#{$fa-css-prefix}-caret-square-o-down:before { @include ext-declare-fa-var($fa-var-caret-square-o-down); }
-.#{$fa-css-prefix}-toggle-up:before,
-.#{$fa-css-prefix}-caret-square-o-up:before { @include ext-declare-fa-var($fa-var-caret-square-o-up); }
-.#{$fa-css-prefix}-toggle-right:before,
-.#{$fa-css-prefix}-caret-square-o-right:before { @include ext-declare-fa-var($fa-var-caret-square-o-right); }
-.#{$fa-css-prefix}-euro:before,
-.#{$fa-css-prefix}-eur:before { @include ext-declare-fa-var($fa-var-eur); }
-.#{$fa-css-prefix}-gbp:before { @include ext-declare-fa-var($fa-var-gbp); }
-.#{$fa-css-prefix}-dollar:before,
-.#{$fa-css-prefix}-usd:before { @include ext-declare-fa-var($fa-var-usd); }
-.#{$fa-css-prefix}-rupee:before,
-.#{$fa-css-prefix}-inr:before { @include ext-declare-fa-var($fa-var-inr); }
-.#{$fa-css-prefix}-cny:before,
-.#{$fa-css-prefix}-rmb:before,
-.#{$fa-css-prefix}-yen:before,
-.#{$fa-css-prefix}-jpy:before { @include ext-declare-fa-var($fa-var-jpy); }
-.#{$fa-css-prefix}-ruble:before,
-.#{$fa-css-prefix}-rouble:before,
-.#{$fa-css-prefix}-rub:before { @include ext-declare-fa-var($fa-var-rub); }
-.#{$fa-css-prefix}-won:before,
-.#{$fa-css-prefix}-krw:before { @include ext-declare-fa-var($fa-var-krw); }
-.#{$fa-css-prefix}-bitcoin:before,
-.#{$fa-css-prefix}-btc:before { @include ext-declare-fa-var($fa-var-btc); }
-.#{$fa-css-prefix}-file:before { @include ext-declare-fa-var($fa-var-file); }
-.#{$fa-css-prefix}-file-text:before { @include ext-declare-fa-var($fa-var-file-text); }
-.#{$fa-css-prefix}-sort-alpha-asc:before { @include ext-declare-fa-var($fa-var-sort-alpha-asc); }
-.#{$fa-css-prefix}-sort-alpha-desc:before { @include ext-declare-fa-var($fa-var-sort-alpha-desc); }
-.#{$fa-css-prefix}-sort-amount-asc:before { @include ext-declare-fa-var($fa-var-sort-amount-asc); }
-.#{$fa-css-prefix}-sort-amount-desc:before { @include ext-declare-fa-var($fa-var-sort-amount-desc); }
-.#{$fa-css-prefix}-sort-numeric-asc:before { @include ext-declare-fa-var($fa-var-sort-numeric-asc); }
-.#{$fa-css-prefix}-sort-numeric-desc:before { @include ext-declare-fa-var($fa-var-sort-numeric-desc); }
-.#{$fa-css-prefix}-thumbs-up:before { @include ext-declare-fa-var($fa-var-thumbs-up); }
-.#{$fa-css-prefix}-thumbs-down:before { @include ext-declare-fa-var($fa-var-thumbs-down); }
-.#{$fa-css-prefix}-youtube-square:before { @include ext-declare-fa-var($fa-var-youtube-square); }
-.#{$fa-css-prefix}-youtube:before { @include ext-declare-fa-var($fa-var-youtube); }
-.#{$fa-css-prefix}-xing:before { @include ext-declare-fa-var($fa-var-xing); }
-.#{$fa-css-prefix}-xing-square:before { @include ext-declare-fa-var($fa-var-xing-square); }
-.#{$fa-css-prefix}-youtube-play:before { @include ext-declare-fa-var($fa-var-youtube-play); }
-.#{$fa-css-prefix}-dropbox:before { @include ext-declare-fa-var($fa-var-dropbox); }
-.#{$fa-css-prefix}-stack-overflow:before { @include ext-declare-fa-var($fa-var-stack-overflow); }
-.#{$fa-css-prefix}-instagram:before { @include ext-declare-fa-var($fa-var-instagram); }
-.#{$fa-css-prefix}-flickr:before { @include ext-declare-fa-var($fa-var-flickr); }
-.#{$fa-css-prefix}-adn:before { @include ext-declare-fa-var($fa-var-adn); }
-.#{$fa-css-prefix}-bitbucket:before { @include ext-declare-fa-var($fa-var-bitbucket); }
-.#{$fa-css-prefix}-bitbucket-square:before { @include ext-declare-fa-var($fa-var-bitbucket-square); }
-.#{$fa-css-prefix}-tumblr:before { @include ext-declare-fa-var($fa-var-tumblr); }
-.#{$fa-css-prefix}-tumblr-square:before { @include ext-declare-fa-var($fa-var-tumblr-square); }
-.#{$fa-css-prefix}-long-arrow-down:before { @include ext-declare-fa-var($fa-var-long-arrow-down); }
-.#{$fa-css-prefix}-long-arrow-up:before { @include ext-declare-fa-var($fa-var-long-arrow-up); }
-.#{$fa-css-prefix}-long-arrow-left:before { @include ext-declare-fa-var($fa-var-long-arrow-left); }
-.#{$fa-css-prefix}-long-arrow-right:before { @include ext-declare-fa-var($fa-var-long-arrow-right); }
-.#{$fa-css-prefix}-apple:before { @include ext-declare-fa-var($fa-var-apple); }
-.#{$fa-css-prefix}-windows:before { @include ext-declare-fa-var($fa-var-windows); }
-.#{$fa-css-prefix}-android:before { @include ext-declare-fa-var($fa-var-android); }
-.#{$fa-css-prefix}-linux:before { @include ext-declare-fa-var($fa-var-linux); }
-.#{$fa-css-prefix}-dribbble:before { @include ext-declare-fa-var($fa-var-dribbble); }
-.#{$fa-css-prefix}-skype:before { @include ext-declare-fa-var($fa-var-skype); }
-.#{$fa-css-prefix}-foursquare:before { @include ext-declare-fa-var($fa-var-foursquare); }
-.#{$fa-css-prefix}-trello:before { @include ext-declare-fa-var($fa-var-trello); }
-.#{$fa-css-prefix}-female:before { @include ext-declare-fa-var($fa-var-female); }
-.#{$fa-css-prefix}-male:before { @include ext-declare-fa-var($fa-var-male); }
-.#{$fa-css-prefix}-gittip:before,
-.#{$fa-css-prefix}-gratipay:before { @include ext-declare-fa-var($fa-var-gratipay); }
-.#{$fa-css-prefix}-sun-o:before { @include ext-declare-fa-var($fa-var-sun-o); }
-.#{$fa-css-prefix}-moon-o:before { @include ext-declare-fa-var($fa-var-moon-o); }
-.#{$fa-css-prefix}-archive:before { @include ext-declare-fa-var($fa-var-archive); }
-.#{$fa-css-prefix}-bug:before { @include ext-declare-fa-var($fa-var-bug); }
-.#{$fa-css-prefix}-vk:before { @include ext-declare-fa-var($fa-var-vk); }
-.#{$fa-css-prefix}-weibo:before { @include ext-declare-fa-var($fa-var-weibo); }
-.#{$fa-css-prefix}-renren:before { @include ext-declare-fa-var($fa-var-renren); }
-.#{$fa-css-prefix}-pagelines:before { @include ext-declare-fa-var($fa-var-pagelines); }
-.#{$fa-css-prefix}-stack-exchange:before { @include ext-declare-fa-var($fa-var-stack-exchange); }
-.#{$fa-css-prefix}-arrow-circle-o-right:before { @include ext-declare-fa-var($fa-var-arrow-circle-o-right); }
-.#{$fa-css-prefix}-arrow-circle-o-left:before { @include ext-declare-fa-var($fa-var-arrow-circle-o-left); }
-.#{$fa-css-prefix}-toggle-left:before,
-.#{$fa-css-prefix}-caret-square-o-left:before { @include ext-declare-fa-var($fa-var-caret-square-o-left); }
-.#{$fa-css-prefix}-dot-circle-o:before { @include ext-declare-fa-var($fa-var-dot-circle-o); }
-.#{$fa-css-prefix}-wheelchair:before { @include ext-declare-fa-var($fa-var-wheelchair); }
-.#{$fa-css-prefix}-vimeo-square:before { @include ext-declare-fa-var($fa-var-vimeo-square); }
-.#{$fa-css-prefix}-turkish-lira:before,
-.#{$fa-css-prefix}-try:before { @include ext-declare-fa-var($fa-var-try); }
-.#{$fa-css-prefix}-plus-square-o:before { @include ext-declare-fa-var($fa-var-plus-square-o); }
-.#{$fa-css-prefix}-space-shuttle:before { @include ext-declare-fa-var($fa-var-space-shuttle); }
-.#{$fa-css-prefix}-slack:before { @include ext-declare-fa-var($fa-var-slack); }
-.#{$fa-css-prefix}-envelope-square:before { @include ext-declare-fa-var($fa-var-envelope-square); }
-.#{$fa-css-prefix}-wordpress:before { @include ext-declare-fa-var($fa-var-wordpress); }
-.#{$fa-css-prefix}-openid:before { @include ext-declare-fa-var($fa-var-openid); }
-.#{$fa-css-prefix}-institution:before,
-.#{$fa-css-prefix}-bank:before,
-.#{$fa-css-prefix}-university:before { @include ext-declare-fa-var($fa-var-university); }
-.#{$fa-css-prefix}-mortar-board:before,
-.#{$fa-css-prefix}-graduation-cap:before { @include ext-declare-fa-var($fa-var-graduation-cap); }
-.#{$fa-css-prefix}-yahoo:before { @include ext-declare-fa-var($fa-var-yahoo); }
-.#{$fa-css-prefix}-google:before { @include ext-declare-fa-var($fa-var-google); }
-.#{$fa-css-prefix}-reddit:before { @include ext-declare-fa-var($fa-var-reddit); }
-.#{$fa-css-prefix}-reddit-square:before { @include ext-declare-fa-var($fa-var-reddit-square); }
-.#{$fa-css-prefix}-stumbleupon-circle:before { @include ext-declare-fa-var($fa-var-stumbleupon-circle); }
-.#{$fa-css-prefix}-stumbleupon:before { @include ext-declare-fa-var($fa-var-stumbleupon); }
-.#{$fa-css-prefix}-delicious:before { @include ext-declare-fa-var($fa-var-delicious); }
-.#{$fa-css-prefix}-digg:before { @include ext-declare-fa-var($fa-var-digg); }
-.#{$fa-css-prefix}-pied-piper-pp:before { @include ext-declare-fa-var($fa-var-pied-piper-pp); }
-.#{$fa-css-prefix}-pied-piper-alt:before { @include ext-declare-fa-var($fa-var-pied-piper-alt); }
-.#{$fa-css-prefix}-drupal:before { @include ext-declare-fa-var($fa-var-drupal); }
-.#{$fa-css-prefix}-joomla:before { @include ext-declare-fa-var($fa-var-joomla); }
-.#{$fa-css-prefix}-language:before { @include ext-declare-fa-var($fa-var-language); }
-.#{$fa-css-prefix}-fax:before { @include ext-declare-fa-var($fa-var-fax); }
-.#{$fa-css-prefix}-building:before { @include ext-declare-fa-var($fa-var-building); }
-.#{$fa-css-prefix}-child:before { @include ext-declare-fa-var($fa-var-child); }
-.#{$fa-css-prefix}-paw:before { @include ext-declare-fa-var($fa-var-paw); }
-.#{$fa-css-prefix}-spoon:before { @include ext-declare-fa-var($fa-var-spoon); }
-.#{$fa-css-prefix}-cube:before { @include ext-declare-fa-var($fa-var-cube); }
-.#{$fa-css-prefix}-cubes:before { @include ext-declare-fa-var($fa-var-cubes); }
-.#{$fa-css-prefix}-behance:before { @include ext-declare-fa-var($fa-var-behance); }
-.#{$fa-css-prefix}-behance-square:before { @include ext-declare-fa-var($fa-var-behance-square); }
-.#{$fa-css-prefix}-steam:before { @include ext-declare-fa-var($fa-var-steam); }
-.#{$fa-css-prefix}-steam-square:before { @include ext-declare-fa-var($fa-var-steam-square); }
-.#{$fa-css-prefix}-recycle:before { @include ext-declare-fa-var($fa-var-recycle); }
-.#{$fa-css-prefix}-automobile:before,
-.#{$fa-css-prefix}-car:before { @include ext-declare-fa-var($fa-var-car); }
-.#{$fa-css-prefix}-cab:before,
-.#{$fa-css-prefix}-taxi:before { @include ext-declare-fa-var($fa-var-taxi); }
-.#{$fa-css-prefix}-tree:before { @include ext-declare-fa-var($fa-var-tree); }
-.#{$fa-css-prefix}-spotify:before { @include ext-declare-fa-var($fa-var-spotify); }
-.#{$fa-css-prefix}-deviantart:before { @include ext-declare-fa-var($fa-var-deviantart); }
-.#{$fa-css-prefix}-soundcloud:before { @include ext-declare-fa-var($fa-var-soundcloud); }
-.#{$fa-css-prefix}-database:before { @include ext-declare-fa-var($fa-var-database); }
-.#{$fa-css-prefix}-file-pdf-o:before { @include ext-declare-fa-var($fa-var-file-pdf-o); }
-.#{$fa-css-prefix}-file-word-o:before { @include ext-declare-fa-var($fa-var-file-word-o); }
-.#{$fa-css-prefix}-file-excel-o:before { @include ext-declare-fa-var($fa-var-file-excel-o); }
-.#{$fa-css-prefix}-file-powerpoint-o:before { @include ext-declare-fa-var($fa-var-file-powerpoint-o); }
-.#{$fa-css-prefix}-file-photo-o:before,
-.#{$fa-css-prefix}-file-picture-o:before,
-.#{$fa-css-prefix}-file-image-o:before { @include ext-declare-fa-var($fa-var-file-image-o); }
-.#{$fa-css-prefix}-file-zip-o:before,
-.#{$fa-css-prefix}-file-archive-o:before { @include ext-declare-fa-var($fa-var-file-archive-o); }
-.#{$fa-css-prefix}-file-sound-o:before,
-.#{$fa-css-prefix}-file-audio-o:before { @include ext-declare-fa-var($fa-var-file-audio-o); }
-.#{$fa-css-prefix}-file-movie-o:before,
-.#{$fa-css-prefix}-file-video-o:before { @include ext-declare-fa-var($fa-var-file-video-o); }
-.#{$fa-css-prefix}-file-code-o:before { @include ext-declare-fa-var($fa-var-file-code-o); }
-.#{$fa-css-prefix}-vine:before { @include ext-declare-fa-var($fa-var-vine); }
-.#{$fa-css-prefix}-codepen:before { @include ext-declare-fa-var($fa-var-codepen); }
-.#{$fa-css-prefix}-jsfiddle:before { @include ext-declare-fa-var($fa-var-jsfiddle); }
-.#{$fa-css-prefix}-life-bouy:before,
-.#{$fa-css-prefix}-life-buoy:before,
-.#{$fa-css-prefix}-life-saver:before,
-.#{$fa-css-prefix}-support:before,
-.#{$fa-css-prefix}-life-ring:before { @include ext-declare-fa-var($fa-var-life-ring); }
-.#{$fa-css-prefix}-circle-o-notch:before { @include ext-declare-fa-var($fa-var-circle-o-notch); }
-.#{$fa-css-prefix}-ra:before,
-.#{$fa-css-prefix}-resistance:before,
-.#{$fa-css-prefix}-rebel:before { @include ext-declare-fa-var($fa-var-rebel); }
-.#{$fa-css-prefix}-ge:before,
-.#{$fa-css-prefix}-empire:before { @include ext-declare-fa-var($fa-var-empire); }
-.#{$fa-css-prefix}-git-square:before { @include ext-declare-fa-var($fa-var-git-square); }
-.#{$fa-css-prefix}-git:before { @include ext-declare-fa-var($fa-var-git); }
-.#{$fa-css-prefix}-y-combinator-square:before,
-.#{$fa-css-prefix}-yc-square:before,
-.#{$fa-css-prefix}-hacker-news:before { @include ext-declare-fa-var($fa-var-hacker-news); }
-.#{$fa-css-prefix}-tencent-weibo:before { @include ext-declare-fa-var($fa-var-tencent-weibo); }
-.#{$fa-css-prefix}-qq:before { @include ext-declare-fa-var($fa-var-qq); }
-.#{$fa-css-prefix}-wechat:before,
-.#{$fa-css-prefix}-weixin:before { @include ext-declare-fa-var($fa-var-weixin); }
-.#{$fa-css-prefix}-send:before,
-.#{$fa-css-prefix}-paper-plane:before { @include ext-declare-fa-var($fa-var-paper-plane); }
-.#{$fa-css-prefix}-send-o:before,
-.#{$fa-css-prefix}-paper-plane-o:before { @include ext-declare-fa-var($fa-var-paper-plane-o); }
-.#{$fa-css-prefix}-history:before { @include ext-declare-fa-var($fa-var-history); }
-.#{$fa-css-prefix}-circle-thin:before { @include ext-declare-fa-var($fa-var-circle-thin); }
-.#{$fa-css-prefix}-header:before { @include ext-declare-fa-var($fa-var-header); }
-.#{$fa-css-prefix}-paragraph:before { @include ext-declare-fa-var($fa-var-paragraph); }
-.#{$fa-css-prefix}-sliders:before { @include ext-declare-fa-var($fa-var-sliders); }
-.#{$fa-css-prefix}-share-alt:before { @include ext-declare-fa-var($fa-var-share-alt); }
-.#{$fa-css-prefix}-share-alt-square:before { @include ext-declare-fa-var($fa-var-share-alt-square); }
-.#{$fa-css-prefix}-bomb:before { @include ext-declare-fa-var($fa-var-bomb); }
-.#{$fa-css-prefix}-soccer-ball-o:before,
-.#{$fa-css-prefix}-futbol-o:before { @include ext-declare-fa-var($fa-var-futbol-o); }
-.#{$fa-css-prefix}-tty:before { @include ext-declare-fa-var($fa-var-tty); }
-.#{$fa-css-prefix}-binoculars:before { @include ext-declare-fa-var($fa-var-binoculars); }
-.#{$fa-css-prefix}-plug:before { @include ext-declare-fa-var($fa-var-plug); }
-.#{$fa-css-prefix}-slideshare:before { @include ext-declare-fa-var($fa-var-slideshare); }
-.#{$fa-css-prefix}-twitch:before { @include ext-declare-fa-var($fa-var-twitch); }
-.#{$fa-css-prefix}-yelp:before { @include ext-declare-fa-var($fa-var-yelp); }
-.#{$fa-css-prefix}-newspaper-o:before { @include ext-declare-fa-var($fa-var-newspaper-o); }
-.#{$fa-css-prefix}-wifi:before { @include ext-declare-fa-var($fa-var-wifi); }
-.#{$fa-css-prefix}-calculator:before { @include ext-declare-fa-var($fa-var-calculator); }
-.#{$fa-css-prefix}-paypal:before { @include ext-declare-fa-var($fa-var-paypal); }
-.#{$fa-css-prefix}-google-wallet:before { @include ext-declare-fa-var($fa-var-google-wallet); }
-.#{$fa-css-prefix}-cc-visa:before { @include ext-declare-fa-var($fa-var-cc-visa); }
-.#{$fa-css-prefix}-cc-mastercard:before { @include ext-declare-fa-var($fa-var-cc-mastercard); }
-.#{$fa-css-prefix}-cc-discover:before { @include ext-declare-fa-var($fa-var-cc-discover); }
-.#{$fa-css-prefix}-cc-amex:before { @include ext-declare-fa-var($fa-var-cc-amex); }
-.#{$fa-css-prefix}-cc-paypal:before { @include ext-declare-fa-var($fa-var-cc-paypal); }
-.#{$fa-css-prefix}-cc-stripe:before { @include ext-declare-fa-var($fa-var-cc-stripe); }
-.#{$fa-css-prefix}-bell-slash:before { @include ext-declare-fa-var($fa-var-bell-slash); }
-.#{$fa-css-prefix}-bell-slash-o:before { @include ext-declare-fa-var($fa-var-bell-slash-o); }
-.#{$fa-css-prefix}-trash:before { @include ext-declare-fa-var($fa-var-trash); }
-.#{$fa-css-prefix}-copyright:before { @include ext-declare-fa-var($fa-var-copyright); }
-.#{$fa-css-prefix}-at:before { @include ext-declare-fa-var($fa-var-at); }
-.#{$fa-css-prefix}-eyedropper:before { @include ext-declare-fa-var($fa-var-eyedropper); }
-.#{$fa-css-prefix}-paint-brush:before { @include ext-declare-fa-var($fa-var-paint-brush); }
-.#{$fa-css-prefix}-birthday-cake:before { @include ext-declare-fa-var($fa-var-birthday-cake); }
-.#{$fa-css-prefix}-area-chart:before { @include ext-declare-fa-var($fa-var-area-chart); }
-.#{$fa-css-prefix}-pie-chart:before { @include ext-declare-fa-var($fa-var-pie-chart); }
-.#{$fa-css-prefix}-line-chart:before { @include ext-declare-fa-var($fa-var-line-chart); }
-.#{$fa-css-prefix}-lastfm:before { @include ext-declare-fa-var($fa-var-lastfm); }
-.#{$fa-css-prefix}-lastfm-square:before { @include ext-declare-fa-var($fa-var-lastfm-square); }
-.#{$fa-css-prefix}-toggle-off:before { @include ext-declare-fa-var($fa-var-toggle-off); }
-.#{$fa-css-prefix}-toggle-on:before { @include ext-declare-fa-var($fa-var-toggle-on); }
-.#{$fa-css-prefix}-bicycle:before { @include ext-declare-fa-var($fa-var-bicycle); }
-.#{$fa-css-prefix}-bus:before { @include ext-declare-fa-var($fa-var-bus); }
-.#{$fa-css-prefix}-ioxhost:before { @include ext-declare-fa-var($fa-var-ioxhost); }
-.#{$fa-css-prefix}-angellist:before { @include ext-declare-fa-var($fa-var-angellist); }
-.#{$fa-css-prefix}-cc:before { @include ext-declare-fa-var($fa-var-cc); }
-.#{$fa-css-prefix}-shekel:before,
-.#{$fa-css-prefix}-sheqel:before,
-.#{$fa-css-prefix}-ils:before { @include ext-declare-fa-var($fa-var-ils); }
-.#{$fa-css-prefix}-meanpath:before { @include ext-declare-fa-var($fa-var-meanpath); }
-.#{$fa-css-prefix}-buysellads:before { @include ext-declare-fa-var($fa-var-buysellads); }
-.#{$fa-css-prefix}-connectdevelop:before { @include ext-declare-fa-var($fa-var-connectdevelop); }
-.#{$fa-css-prefix}-dashcube:before { @include ext-declare-fa-var($fa-var-dashcube); }
-.#{$fa-css-prefix}-forumbee:before { @include ext-declare-fa-var($fa-var-forumbee); }
-.#{$fa-css-prefix}-leanpub:before { @include ext-declare-fa-var($fa-var-leanpub); }
-.#{$fa-css-prefix}-sellsy:before { @include ext-declare-fa-var($fa-var-sellsy); }
-.#{$fa-css-prefix}-shirtsinbulk:before { @include ext-declare-fa-var($fa-var-shirtsinbulk); }
-.#{$fa-css-prefix}-simplybuilt:before { @include ext-declare-fa-var($fa-var-simplybuilt); }
-.#{$fa-css-prefix}-skyatlas:before { @include ext-declare-fa-var($fa-var-skyatlas); }
-.#{$fa-css-prefix}-cart-plus:before { @include ext-declare-fa-var($fa-var-cart-plus); }
-.#{$fa-css-prefix}-cart-arrow-down:before { @include ext-declare-fa-var($fa-var-cart-arrow-down); }
-.#{$fa-css-prefix}-diamond:before { @include ext-declare-fa-var($fa-var-diamond); }
-.#{$fa-css-prefix}-ship:before { @include ext-declare-fa-var($fa-var-ship); }
-.#{$fa-css-prefix}-user-secret:before { @include ext-declare-fa-var($fa-var-user-secret); }
-.#{$fa-css-prefix}-motorcycle:before { @include ext-declare-fa-var($fa-var-motorcycle); }
-.#{$fa-css-prefix}-street-view:before { @include ext-declare-fa-var($fa-var-street-view); }
-.#{$fa-css-prefix}-heartbeat:before { @include ext-declare-fa-var($fa-var-heartbeat); }
-.#{$fa-css-prefix}-venus:before { @include ext-declare-fa-var($fa-var-venus); }
-.#{$fa-css-prefix}-mars:before { @include ext-declare-fa-var($fa-var-mars); }
-.#{$fa-css-prefix}-mercury:before { @include ext-declare-fa-var($fa-var-mercury); }
-.#{$fa-css-prefix}-intersex:before,
-.#{$fa-css-prefix}-transgender:before { @include ext-declare-fa-var($fa-var-transgender); }
-.#{$fa-css-prefix}-transgender-alt:before { @include ext-declare-fa-var($fa-var-transgender-alt); }
-.#{$fa-css-prefix}-venus-double:before { @include ext-declare-fa-var($fa-var-venus-double); }
-.#{$fa-css-prefix}-mars-double:before { @include ext-declare-fa-var($fa-var-mars-double); }
-.#{$fa-css-prefix}-venus-mars:before { @include ext-declare-fa-var($fa-var-venus-mars); }
-.#{$fa-css-prefix}-mars-stroke:before { @include ext-declare-fa-var($fa-var-mars-stroke); }
-.#{$fa-css-prefix}-mars-stroke-v:before { @include ext-declare-fa-var($fa-var-mars-stroke-v); }
-.#{$fa-css-prefix}-mars-stroke-h:before { @include ext-declare-fa-var($fa-var-mars-stroke-h); }
-.#{$fa-css-prefix}-neuter:before { @include ext-declare-fa-var($fa-var-neuter); }
-.#{$fa-css-prefix}-genderless:before { @include ext-declare-fa-var($fa-var-genderless); }
-.#{$fa-css-prefix}-facebook-official:before { @include ext-declare-fa-var($fa-var-facebook-official); }
-.#{$fa-css-prefix}-pinterest-p:before { @include ext-declare-fa-var($fa-var-pinterest-p); }
-.#{$fa-css-prefix}-whatsapp:before { @include ext-declare-fa-var($fa-var-whatsapp); }
-.#{$fa-css-prefix}-server:before { @include ext-declare-fa-var($fa-var-server); }
-.#{$fa-css-prefix}-user-plus:before { @include ext-declare-fa-var($fa-var-user-plus); }
-.#{$fa-css-prefix}-user-times:before { @include ext-declare-fa-var($fa-var-user-times); }
-.#{$fa-css-prefix}-hotel:before,
-.#{$fa-css-prefix}-bed:before { @include ext-declare-fa-var($fa-var-bed); }
-.#{$fa-css-prefix}-viacoin:before { @include ext-declare-fa-var($fa-var-viacoin); }
-.#{$fa-css-prefix}-train:before { @include ext-declare-fa-var($fa-var-train); }
-.#{$fa-css-prefix}-subway:before { @include ext-declare-fa-var($fa-var-subway); }
-.#{$fa-css-prefix}-medium:before { @include ext-declare-fa-var($fa-var-medium); }
-.#{$fa-css-prefix}-yc:before,
-.#{$fa-css-prefix}-y-combinator:before { @include ext-declare-fa-var($fa-var-y-combinator); }
-.#{$fa-css-prefix}-optin-monster:before { @include ext-declare-fa-var($fa-var-optin-monster); }
-.#{$fa-css-prefix}-opencart:before { @include ext-declare-fa-var($fa-var-opencart); }
-.#{$fa-css-prefix}-expeditedssl:before { @include ext-declare-fa-var($fa-var-expeditedssl); }
-.#{$fa-css-prefix}-battery-4:before,
-.#{$fa-css-prefix}-battery:before,
-.#{$fa-css-prefix}-battery-full:before { @include ext-declare-fa-var($fa-var-battery-full); }
-.#{$fa-css-prefix}-battery-3:before,
-.#{$fa-css-prefix}-battery-three-quarters:before { @include ext-declare-fa-var($fa-var-battery-three-quarters); }
-.#{$fa-css-prefix}-battery-2:before,
-.#{$fa-css-prefix}-battery-half:before { @include ext-declare-fa-var($fa-var-battery-half); }
-.#{$fa-css-prefix}-battery-1:before,
-.#{$fa-css-prefix}-battery-quarter:before { @include ext-declare-fa-var($fa-var-battery-quarter); }
-.#{$fa-css-prefix}-battery-0:before,
-.#{$fa-css-prefix}-battery-empty:before { @include ext-declare-fa-var($fa-var-battery-empty); }
-.#{$fa-css-prefix}-mouse-pointer:before { @include ext-declare-fa-var($fa-var-mouse-pointer); }
-.#{$fa-css-prefix}-i-cursor:before { @include ext-declare-fa-var($fa-var-i-cursor); }
-.#{$fa-css-prefix}-object-group:before { @include ext-declare-fa-var($fa-var-object-group); }
-.#{$fa-css-prefix}-object-ungroup:before { @include ext-declare-fa-var($fa-var-object-ungroup); }
-.#{$fa-css-prefix}-sticky-note:before { @include ext-declare-fa-var($fa-var-sticky-note); }
-.#{$fa-css-prefix}-sticky-note-o:before { @include ext-declare-fa-var($fa-var-sticky-note-o); }
-.#{$fa-css-prefix}-cc-jcb:before { @include ext-declare-fa-var($fa-var-cc-jcb); }
-.#{$fa-css-prefix}-cc-diners-club:before { @include ext-declare-fa-var($fa-var-cc-diners-club); }
-.#{$fa-css-prefix}-clone:before { @include ext-declare-fa-var($fa-var-clone); }
-.#{$fa-css-prefix}-balance-scale:before { @include ext-declare-fa-var($fa-var-balance-scale); }
-.#{$fa-css-prefix}-hourglass-o:before { @include ext-declare-fa-var($fa-var-hourglass-o); }
-.#{$fa-css-prefix}-hourglass-1:before,
-.#{$fa-css-prefix}-hourglass-start:before { @include ext-declare-fa-var($fa-var-hourglass-start); }
-.#{$fa-css-prefix}-hourglass-2:before,
-.#{$fa-css-prefix}-hourglass-half:before { @include ext-declare-fa-var($fa-var-hourglass-half); }
-.#{$fa-css-prefix}-hourglass-3:before,
-.#{$fa-css-prefix}-hourglass-end:before { @include ext-declare-fa-var($fa-var-hourglass-end); }
-.#{$fa-css-prefix}-hourglass:before { @include ext-declare-fa-var($fa-var-hourglass); }
-.#{$fa-css-prefix}-hand-grab-o:before,
-.#{$fa-css-prefix}-hand-rock-o:before { @include ext-declare-fa-var($fa-var-hand-rock-o); }
-.#{$fa-css-prefix}-hand-stop-o:before,
-.#{$fa-css-prefix}-hand-paper-o:before { @include ext-declare-fa-var($fa-var-hand-paper-o); }
-.#{$fa-css-prefix}-hand-scissors-o:before { @include ext-declare-fa-var($fa-var-hand-scissors-o); }
-.#{$fa-css-prefix}-hand-lizard-o:before { @include ext-declare-fa-var($fa-var-hand-lizard-o); }
-.#{$fa-css-prefix}-hand-spock-o:before { @include ext-declare-fa-var($fa-var-hand-spock-o); }
-.#{$fa-css-prefix}-hand-pointer-o:before { @include ext-declare-fa-var($fa-var-hand-pointer-o); }
-.#{$fa-css-prefix}-hand-peace-o:before { @include ext-declare-fa-var($fa-var-hand-peace-o); }
-.#{$fa-css-prefix}-trademark:before { @include ext-declare-fa-var($fa-var-trademark); }
-.#{$fa-css-prefix}-registered:before { @include ext-declare-fa-var($fa-var-registered); }
-.#{$fa-css-prefix}-creative-commons:before { @include ext-declare-fa-var($fa-var-creative-commons); }
-.#{$fa-css-prefix}-gg:before { @include ext-declare-fa-var($fa-var-gg); }
-.#{$fa-css-prefix}-gg-circle:before { @include ext-declare-fa-var($fa-var-gg-circle); }
-.#{$fa-css-prefix}-tripadvisor:before { @include ext-declare-fa-var($fa-var-tripadvisor); }
-.#{$fa-css-prefix}-odnoklassniki:before { @include ext-declare-fa-var($fa-var-odnoklassniki); }
-.#{$fa-css-prefix}-odnoklassniki-square:before { @include ext-declare-fa-var($fa-var-odnoklassniki-square); }
-.#{$fa-css-prefix}-get-pocket:before { @include ext-declare-fa-var($fa-var-get-pocket); }
-.#{$fa-css-prefix}-wikipedia-w:before { @include ext-declare-fa-var($fa-var-wikipedia-w); }
-.#{$fa-css-prefix}-safari:before { @include ext-declare-fa-var($fa-var-safari); }
-.#{$fa-css-prefix}-chrome:before { @include ext-declare-fa-var($fa-var-chrome); }
-.#{$fa-css-prefix}-firefox:before { @include ext-declare-fa-var($fa-var-firefox); }
-.#{$fa-css-prefix}-opera:before { @include ext-declare-fa-var($fa-var-opera); }
-.#{$fa-css-prefix}-internet-explorer:before { @include ext-declare-fa-var($fa-var-internet-explorer); }
-.#{$fa-css-prefix}-tv:before,
-.#{$fa-css-prefix}-television:before { @include ext-declare-fa-var($fa-var-television); }
-.#{$fa-css-prefix}-contao:before { @include ext-declare-fa-var($fa-var-contao); }
-.#{$fa-css-prefix}-500px:before { @include ext-declare-fa-var($fa-var-500px); }
-.#{$fa-css-prefix}-amazon:before { @include ext-declare-fa-var($fa-var-amazon); }
-.#{$fa-css-prefix}-calendar-plus-o:before { @include ext-declare-fa-var($fa-var-calendar-plus-o); }
-.#{$fa-css-prefix}-calendar-minus-o:before { @include ext-declare-fa-var($fa-var-calendar-minus-o); }
-.#{$fa-css-prefix}-calendar-times-o:before { @include ext-declare-fa-var($fa-var-calendar-times-o); }
-.#{$fa-css-prefix}-calendar-check-o:before { @include ext-declare-fa-var($fa-var-calendar-check-o); }
-.#{$fa-css-prefix}-industry:before { @include ext-declare-fa-var($fa-var-industry); }
-.#{$fa-css-prefix}-map-pin:before { @include ext-declare-fa-var($fa-var-map-pin); }
-.#{$fa-css-prefix}-map-signs:before { @include ext-declare-fa-var($fa-var-map-signs); }
-.#{$fa-css-prefix}-map-o:before { @include ext-declare-fa-var($fa-var-map-o); }
-.#{$fa-css-prefix}-map:before { @include ext-declare-fa-var($fa-var-map); }
-.#{$fa-css-prefix}-commenting:before { @include ext-declare-fa-var($fa-var-commenting); }
-.#{$fa-css-prefix}-commenting-o:before { @include ext-declare-fa-var($fa-var-commenting-o); }
-.#{$fa-css-prefix}-houzz:before { @include ext-declare-fa-var($fa-var-houzz); }
-.#{$fa-css-prefix}-vimeo:before { @include ext-declare-fa-var($fa-var-vimeo); }
-.#{$fa-css-prefix}-black-tie:before { @include ext-declare-fa-var($fa-var-black-tie); }
-.#{$fa-css-prefix}-fonticons:before { @include ext-declare-fa-var($fa-var-fonticons); }
-.#{$fa-css-prefix}-reddit-alien:before { @include ext-declare-fa-var($fa-var-reddit-alien); }
-.#{$fa-css-prefix}-edge:before { @include ext-declare-fa-var($fa-var-edge); }
-.#{$fa-css-prefix}-credit-card-alt:before { @include ext-declare-fa-var($fa-var-credit-card-alt); }
-.#{$fa-css-prefix}-codiepie:before { @include ext-declare-fa-var($fa-var-codiepie); }
-.#{$fa-css-prefix}-modx:before { @include ext-declare-fa-var($fa-var-modx); }
-.#{$fa-css-prefix}-fort-awesome:before { @include ext-declare-fa-var($fa-var-fort-awesome); }
-.#{$fa-css-prefix}-usb:before { @include ext-declare-fa-var($fa-var-usb); }
-.#{$fa-css-prefix}-product-hunt:before { @include ext-declare-fa-var($fa-var-product-hunt); }
-.#{$fa-css-prefix}-mixcloud:before { @include ext-declare-fa-var($fa-var-mixcloud); }
-.#{$fa-css-prefix}-scribd:before { @include ext-declare-fa-var($fa-var-scribd); }
-.#{$fa-css-prefix}-pause-circle:before { @include ext-declare-fa-var($fa-var-pause-circle); }
-.#{$fa-css-prefix}-pause-circle-o:before { @include ext-declare-fa-var($fa-var-pause-circle-o); }
-.#{$fa-css-prefix}-stop-circle:before { @include ext-declare-fa-var($fa-var-stop-circle); }
-.#{$fa-css-prefix}-stop-circle-o:before { @include ext-declare-fa-var($fa-var-stop-circle-o); }
-.#{$fa-css-prefix}-shopping-bag:before { @include ext-declare-fa-var($fa-var-shopping-bag); }
-.#{$fa-css-prefix}-shopping-basket:before { @include ext-declare-fa-var($fa-var-shopping-basket); }
-.#{$fa-css-prefix}-hashtag:before { @include ext-declare-fa-var($fa-var-hashtag); }
-.#{$fa-css-prefix}-bluetooth:before { @include ext-declare-fa-var($fa-var-bluetooth); }
-.#{$fa-css-prefix}-bluetooth-b:before { @include ext-declare-fa-var($fa-var-bluetooth-b); }
-.#{$fa-css-prefix}-percent:before { @include ext-declare-fa-var($fa-var-percent); }
-.#{$fa-css-prefix}-gitlab:before { @include ext-declare-fa-var($fa-var-gitlab); }
-.#{$fa-css-prefix}-wpbeginner:before { @include ext-declare-fa-var($fa-var-wpbeginner); }
-.#{$fa-css-prefix}-wpforms:before { @include ext-declare-fa-var($fa-var-wpforms); }
-.#{$fa-css-prefix}-envira:before { @include ext-declare-fa-var($fa-var-envira); }
-.#{$fa-css-prefix}-universal-access:before { @include ext-declare-fa-var($fa-var-universal-access); }
-.#{$fa-css-prefix}-wheelchair-alt:before { @include ext-declare-fa-var($fa-var-wheelchair-alt); }
-.#{$fa-css-prefix}-question-circle-o:before { @include ext-declare-fa-var($fa-var-question-circle-o); }
-.#{$fa-css-prefix}-blind:before { @include ext-declare-fa-var($fa-var-blind); }
-.#{$fa-css-prefix}-audio-description:before { @include ext-declare-fa-var($fa-var-audio-description); }
-.#{$fa-css-prefix}-volume-control-phone:before { @include ext-declare-fa-var($fa-var-volume-control-phone); }
-.#{$fa-css-prefix}-braille:before { @include ext-declare-fa-var($fa-var-braille); }
-.#{$fa-css-prefix}-assistive-listening-systems:before { @include ext-declare-fa-var($fa-var-assistive-listening-systems); }
-.#{$fa-css-prefix}-asl-interpreting:before,
-.#{$fa-css-prefix}-american-sign-language-interpreting:before { @include ext-declare-fa-var($fa-var-american-sign-language-interpreting); }
-.#{$fa-css-prefix}-deafness:before,
-.#{$fa-css-prefix}-hard-of-hearing:before,
-.#{$fa-css-prefix}-deaf:before { @include ext-declare-fa-var($fa-var-deaf); }
-.#{$fa-css-prefix}-glide:before { @include ext-declare-fa-var($fa-var-glide); }
-.#{$fa-css-prefix}-glide-g:before { @include ext-declare-fa-var($fa-var-glide-g); }
-.#{$fa-css-prefix}-signing:before,
-.#{$fa-css-prefix}-sign-language:before { @include ext-declare-fa-var($fa-var-sign-language); }
-.#{$fa-css-prefix}-low-vision:before { @include ext-declare-fa-var($fa-var-low-vision); }
-.#{$fa-css-prefix}-viadeo:before { @include ext-declare-fa-var($fa-var-viadeo); }
-.#{$fa-css-prefix}-viadeo-square:before { @include ext-declare-fa-var($fa-var-viadeo-square); }
-.#{$fa-css-prefix}-snapchat:before { @include ext-declare-fa-var($fa-var-snapchat); }
-.#{$fa-css-prefix}-snapchat-ghost:before { @include ext-declare-fa-var($fa-var-snapchat-ghost); }
-.#{$fa-css-prefix}-snapchat-square:before { @include ext-declare-fa-var($fa-var-snapchat-square); }
-.#{$fa-css-prefix}-pied-piper:before { @include ext-declare-fa-var($fa-var-pied-piper); }
-.#{$fa-css-prefix}-first-order:before { @include ext-declare-fa-var($fa-var-first-order); }
-.#{$fa-css-prefix}-yoast:before { @include ext-declare-fa-var($fa-var-yoast); }
-.#{$fa-css-prefix}-themeisle:before { @include ext-declare-fa-var($fa-var-themeisle); }
-.#{$fa-css-prefix}-google-plus-circle:before,
-.#{$fa-css-prefix}-google-plus-official:before { @include ext-declare-fa-var($fa-var-google-plus-official); }
-.#{$fa-css-prefix}-fa:before,
-.#{$fa-css-prefix}-font-awesome:before { @include ext-declare-fa-var($fa-var-font-awesome); }
-.#{$fa-css-prefix}-handshake-o:before { @include ext-declare-fa-var($fa-var-handshake-o); }
-.#{$fa-css-prefix}-envelope-open:before { @include ext-declare-fa-var($fa-var-envelope-open); }
-.#{$fa-css-prefix}-envelope-open-o:before { @include ext-declare-fa-var($fa-var-envelope-open-o); }
-.#{$fa-css-prefix}-linode:before { @include ext-declare-fa-var($fa-var-linode); }
-.#{$fa-css-prefix}-address-book:before { @include ext-declare-fa-var($fa-var-address-book); }
-.#{$fa-css-prefix}-address-book-o:before { @include ext-declare-fa-var($fa-var-address-book-o); }
-.#{$fa-css-prefix}-vcard:before,
-.#{$fa-css-prefix}-address-card:before { @include ext-declare-fa-var($fa-var-address-card); }
-.#{$fa-css-prefix}-vcard-o:before,
-.#{$fa-css-prefix}-address-card-o:before { @include ext-declare-fa-var($fa-var-address-card-o); }
-.#{$fa-css-prefix}-user-circle:before { @include ext-declare-fa-var($fa-var-user-circle); }
-.#{$fa-css-prefix}-user-circle-o:before { @include ext-declare-fa-var($fa-var-user-circle-o); }
-.#{$fa-css-prefix}-user-o:before { @include ext-declare-fa-var($fa-var-user-o); }
-.#{$fa-css-prefix}-id-badge:before { @include ext-declare-fa-var($fa-var-id-badge); }
-.#{$fa-css-prefix}-drivers-license:before,
-.#{$fa-css-prefix}-id-card:before { @include ext-declare-fa-var($fa-var-id-card); }
-.#{$fa-css-prefix}-drivers-license-o:before,
-.#{$fa-css-prefix}-id-card-o:before { @include ext-declare-fa-var($fa-var-id-card-o); }
-.#{$fa-css-prefix}-quora:before { @include ext-declare-fa-var($fa-var-quora); }
-.#{$fa-css-prefix}-free-code-camp:before { @include ext-declare-fa-var($fa-var-free-code-camp); }
-.#{$fa-css-prefix}-telegram:before { @include ext-declare-fa-var($fa-var-telegram); }
-.#{$fa-css-prefix}-thermometer-4:before,
-.#{$fa-css-prefix}-thermometer:before,
-.#{$fa-css-prefix}-thermometer-full:before { @include ext-declare-fa-var($fa-var-thermometer-full); }
-.#{$fa-css-prefix}-thermometer-3:before,
-.#{$fa-css-prefix}-thermometer-three-quarters:before { @include ext-declare-fa-var($fa-var-thermometer-three-quarters); }
-.#{$fa-css-prefix}-thermometer-2:before,
-.#{$fa-css-prefix}-thermometer-half:before { @include ext-declare-fa-var($fa-var-thermometer-half); }
-.#{$fa-css-prefix}-thermometer-1:before,
-.#{$fa-css-prefix}-thermometer-quarter:before { @include ext-declare-fa-var($fa-var-thermometer-quarter); }
-.#{$fa-css-prefix}-thermometer-0:before,
-.#{$fa-css-prefix}-thermometer-empty:before { @include ext-declare-fa-var($fa-var-thermometer-empty); }
-.#{$fa-css-prefix}-shower:before { @include ext-declare-fa-var($fa-var-shower); }
-.#{$fa-css-prefix}-bathtub:before,
-.#{$fa-css-prefix}-s15:before,
-.#{$fa-css-prefix}-bath:before { @include ext-declare-fa-var($fa-var-bath); }
-.#{$fa-css-prefix}-podcast:before { @include ext-declare-fa-var($fa-var-podcast); }
-.#{$fa-css-prefix}-window-maximize:before { @include ext-declare-fa-var($fa-var-window-maximize); }
-.#{$fa-css-prefix}-window-minimize:before { @include ext-declare-fa-var($fa-var-window-minimize); }
-.#{$fa-css-prefix}-window-restore:before { @include ext-declare-fa-var($fa-var-window-restore); }
-.#{$fa-css-prefix}-times-rectangle:before,
-.#{$fa-css-prefix}-window-close:before { @include ext-declare-fa-var($fa-var-window-close); }
-.#{$fa-css-prefix}-times-rectangle-o:before,
-.#{$fa-css-prefix}-window-close-o:before { @include ext-declare-fa-var($fa-var-window-close-o); }
-.#{$fa-css-prefix}-bandcamp:before { @include ext-declare-fa-var($fa-var-bandcamp); }
-.#{$fa-css-prefix}-grav:before { @include ext-declare-fa-var($fa-var-grav); }
-.#{$fa-css-prefix}-etsy:before { @include ext-declare-fa-var($fa-var-etsy); }
-.#{$fa-css-prefix}-imdb:before { @include ext-declare-fa-var($fa-var-imdb); }
-.#{$fa-css-prefix}-ravelry:before { @include ext-declare-fa-var($fa-var-ravelry); }
-.#{$fa-css-prefix}-eercast:before { @include ext-declare-fa-var($fa-var-eercast); }
-.#{$fa-css-prefix}-microchip:before { @include ext-declare-fa-var($fa-var-microchip); }
-.#{$fa-css-prefix}-snowflake-o:before { @include ext-declare-fa-var($fa-var-snowflake-o); }
-.#{$fa-css-prefix}-superpowers:before { @include ext-declare-fa-var($fa-var-superpowers); }
-.#{$fa-css-prefix}-wpexplorer:before { @include ext-declare-fa-var($fa-var-wpexplorer); }
-.#{$fa-css-prefix}-meetup:before { @include ext-declare-fa-var($fa-var-meetup); }
+@if $ext-use-all-fa-icons or $ext-use-fa-glass {
+  .#{$fa-css-prefix}-glass:before {
+    @include ext-declare-fa-var($fa-var-glass);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-music {
+  .#{$fa-css-prefix}-music:before {
+    @include ext-declare-fa-var($fa-var-music);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-search {
+  .#{$fa-css-prefix}-search:before {
+    @include ext-declare-fa-var($fa-var-search);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envelope-o {
+  .#{$fa-css-prefix}-envelope-o:before {
+    @include ext-declare-fa-var($fa-var-envelope-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-heart {
+  .#{$fa-css-prefix}-heart:before {
+    @include ext-declare-fa-var($fa-var-heart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-star {
+  .#{$fa-css-prefix}-star:before {
+    @include ext-declare-fa-var($fa-var-star);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-star-o {
+  .#{$fa-css-prefix}-star-o:before {
+    @include ext-declare-fa-var($fa-var-star-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user {
+  .#{$fa-css-prefix}-user:before {
+    @include ext-declare-fa-var($fa-var-user);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-film {
+  .#{$fa-css-prefix}-film:before {
+    @include ext-declare-fa-var($fa-var-film);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-th-large {
+  .#{$fa-css-prefix}-th-large:before {
+    @include ext-declare-fa-var($fa-var-th-large);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-th {
+  .#{$fa-css-prefix}-th:before {
+    @include ext-declare-fa-var($fa-var-th);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-th-list {
+  .#{$fa-css-prefix}-th-list:before {
+    @include ext-declare-fa-var($fa-var-th-list);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-check {
+  .#{$fa-css-prefix}-check:before {
+    @include ext-declare-fa-var($fa-var-check);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-remove or $ext-use-fa-close or $ext-use-fa-times {
+  .#{$fa-css-prefix}-remove:before,
+  .#{$fa-css-prefix}-close:before,
+  .#{$fa-css-prefix}-times:before {
+    @include ext-declare-fa-var($fa-var-times);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-search-plus {
+  .#{$fa-css-prefix}-search-plus:before {
+    @include ext-declare-fa-var($fa-var-search-plus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-search-minus {
+  .#{$fa-css-prefix}-search-minus:before {
+    @include ext-declare-fa-var($fa-var-search-minus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-power-off {
+  .#{$fa-css-prefix}-power-off:before {
+    @include ext-declare-fa-var($fa-var-power-off);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-signal {
+  .#{$fa-css-prefix}-signal:before {
+    @include ext-declare-fa-var($fa-var-signal);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gear or $ext-use-fa-cog {
+  .#{$fa-css-prefix}-gear:before,
+  .#{$fa-css-prefix}-cog:before {
+    @include ext-declare-fa-var($fa-var-cog);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-trash-o {
+  .#{$fa-css-prefix}-trash-o:before {
+    @include ext-declare-fa-var($fa-var-trash-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-home {
+  .#{$fa-css-prefix}-home:before {
+    @include ext-declare-fa-var($fa-var-home);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-o {
+  .#{$fa-css-prefix}-file-o:before {
+    @include ext-declare-fa-var($fa-var-file-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-clock-o {
+  .#{$fa-css-prefix}-clock-o:before {
+    @include ext-declare-fa-var($fa-var-clock-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-road {
+  .#{$fa-css-prefix}-road:before {
+    @include ext-declare-fa-var($fa-var-road);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-download {
+  .#{$fa-css-prefix}-download:before {
+    @include ext-declare-fa-var($fa-var-download);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-o-down {
+  .#{$fa-css-prefix}-arrow-circle-o-down:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-o-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-o-up {
+  .#{$fa-css-prefix}-arrow-circle-o-up:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-o-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-inbox {
+  .#{$fa-css-prefix}-inbox:before {
+    @include ext-declare-fa-var($fa-var-inbox);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-play-circle-o {
+  .#{$fa-css-prefix}-play-circle-o:before {
+    @include ext-declare-fa-var($fa-var-play-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-rotate-right or $ext-use-fa-repeat {
+  .#{$fa-css-prefix}-rotate-right:before,
+  .#{$fa-css-prefix}-repeat:before {
+    @include ext-declare-fa-var($fa-var-repeat);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-refresh {
+  .#{$fa-css-prefix}-refresh:before {
+    @include ext-declare-fa-var($fa-var-refresh);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-list-alt {
+  .#{$fa-css-prefix}-list-alt:before {
+    @include ext-declare-fa-var($fa-var-list-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-lock {
+  .#{$fa-css-prefix}-lock:before {
+    @include ext-declare-fa-var($fa-var-lock);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flag {
+  .#{$fa-css-prefix}-flag:before {
+    @include ext-declare-fa-var($fa-var-flag);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-headphones {
+  .#{$fa-css-prefix}-headphones:before {
+    @include ext-declare-fa-var($fa-var-headphones);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-volume-off {
+  .#{$fa-css-prefix}-volume-off:before {
+    @include ext-declare-fa-var($fa-var-volume-off);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-volume-down {
+  .#{$fa-css-prefix}-volume-down:before {
+    @include ext-declare-fa-var($fa-var-volume-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-volume-up {
+  .#{$fa-css-prefix}-volume-up:before {
+    @include ext-declare-fa-var($fa-var-volume-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-qrcode {
+  .#{$fa-css-prefix}-qrcode:before {
+    @include ext-declare-fa-var($fa-var-qrcode);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-barcode {
+  .#{$fa-css-prefix}-barcode:before {
+    @include ext-declare-fa-var($fa-var-barcode);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tag {
+  .#{$fa-css-prefix}-tag:before {
+    @include ext-declare-fa-var($fa-var-tag);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tags {
+  .#{$fa-css-prefix}-tags:before {
+    @include ext-declare-fa-var($fa-var-tags);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-book {
+  .#{$fa-css-prefix}-book:before {
+    @include ext-declare-fa-var($fa-var-book);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bookmark {
+  .#{$fa-css-prefix}-bookmark:before {
+    @include ext-declare-fa-var($fa-var-bookmark);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-print {
+  .#{$fa-css-prefix}-print:before {
+    @include ext-declare-fa-var($fa-var-print);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-camera {
+  .#{$fa-css-prefix}-camera:before {
+    @include ext-declare-fa-var($fa-var-camera);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-font {
+  .#{$fa-css-prefix}-font:before {
+    @include ext-declare-fa-var($fa-var-font);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bold {
+  .#{$fa-css-prefix}-bold:before {
+    @include ext-declare-fa-var($fa-var-bold);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-italic {
+  .#{$fa-css-prefix}-italic:before {
+    @include ext-declare-fa-var($fa-var-italic);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-text-height {
+  .#{$fa-css-prefix}-text-height:before {
+    @include ext-declare-fa-var($fa-var-text-height);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-text-width {
+  .#{$fa-css-prefix}-text-width:before {
+    @include ext-declare-fa-var($fa-var-text-width);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-align-left {
+  .#{$fa-css-prefix}-align-left:before {
+    @include ext-declare-fa-var($fa-var-align-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-align-center {
+  .#{$fa-css-prefix}-align-center:before {
+    @include ext-declare-fa-var($fa-var-align-center);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-align-right {
+  .#{$fa-css-prefix}-align-right:before {
+    @include ext-declare-fa-var($fa-var-align-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-align-justify {
+  .#{$fa-css-prefix}-align-justify:before {
+    @include ext-declare-fa-var($fa-var-align-justify);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-list {
+  .#{$fa-css-prefix}-list:before {
+    @include ext-declare-fa-var($fa-var-list);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dedent or $ext-use-fa-outdent {
+  .#{$fa-css-prefix}-dedent:before,
+  .#{$fa-css-prefix}-outdent:before {
+    @include ext-declare-fa-var($fa-var-outdent);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-indent {
+  .#{$fa-css-prefix}-indent:before {
+    @include ext-declare-fa-var($fa-var-indent);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-video-camera {
+  .#{$fa-css-prefix}-video-camera:before {
+    @include ext-declare-fa-var($fa-var-video-camera);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-photo or $ext-use-fa-image or $ext-use-fa-picture-o {
+  .#{$fa-css-prefix}-photo:before,
+  .#{$fa-css-prefix}-image:before,
+  .#{$fa-css-prefix}-picture-o:before {
+    @include ext-declare-fa-var($fa-var-picture-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pencil {
+  .#{$fa-css-prefix}-pencil:before {
+    @include ext-declare-fa-var($fa-var-pencil);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-map-marker {
+  .#{$fa-css-prefix}-map-marker:before {
+    @include ext-declare-fa-var($fa-var-map-marker);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-adjust {
+  .#{$fa-css-prefix}-adjust:before {
+    @include ext-declare-fa-var($fa-var-adjust);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tint {
+  .#{$fa-css-prefix}-tint:before {
+    @include ext-declare-fa-var($fa-var-tint);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-edit or $ext-use-fa-pencil-square-o {
+  .#{$fa-css-prefix}-edit:before,
+  .#{$fa-css-prefix}-pencil-square-o:before {
+    @include ext-declare-fa-var($fa-var-pencil-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-share-square-o {
+  .#{$fa-css-prefix}-share-square-o:before {
+    @include ext-declare-fa-var($fa-var-share-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-check-square-o {
+  .#{$fa-css-prefix}-check-square-o:before {
+    @include ext-declare-fa-var($fa-var-check-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrows {
+  .#{$fa-css-prefix}-arrows:before {
+    @include ext-declare-fa-var($fa-var-arrows);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-step-backward {
+  .#{$fa-css-prefix}-step-backward:before {
+    @include ext-declare-fa-var($fa-var-step-backward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fast-backward {
+  .#{$fa-css-prefix}-fast-backward:before {
+    @include ext-declare-fa-var($fa-var-fast-backward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-backward {
+  .#{$fa-css-prefix}-backward:before {
+    @include ext-declare-fa-var($fa-var-backward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-play {
+  .#{$fa-css-prefix}-play:before {
+    @include ext-declare-fa-var($fa-var-play);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pause {
+  .#{$fa-css-prefix}-pause:before {
+    @include ext-declare-fa-var($fa-var-pause);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stop {
+  .#{$fa-css-prefix}-stop:before {
+    @include ext-declare-fa-var($fa-var-stop);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-forward {
+  .#{$fa-css-prefix}-forward:before {
+    @include ext-declare-fa-var($fa-var-forward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fast-forward {
+  .#{$fa-css-prefix}-fast-forward:before {
+    @include ext-declare-fa-var($fa-var-fast-forward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-step-forward {
+  .#{$fa-css-prefix}-step-forward:before {
+    @include ext-declare-fa-var($fa-var-step-forward);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eject {
+  .#{$fa-css-prefix}-eject:before {
+    @include ext-declare-fa-var($fa-var-eject);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-left {
+  .#{$fa-css-prefix}-chevron-left:before {
+    @include ext-declare-fa-var($fa-var-chevron-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-right {
+  .#{$fa-css-prefix}-chevron-right:before {
+    @include ext-declare-fa-var($fa-var-chevron-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plus-circle {
+  .#{$fa-css-prefix}-plus-circle:before {
+    @include ext-declare-fa-var($fa-var-plus-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-minus-circle {
+  .#{$fa-css-prefix}-minus-circle:before {
+    @include ext-declare-fa-var($fa-var-minus-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-times-circle {
+  .#{$fa-css-prefix}-times-circle:before {
+    @include ext-declare-fa-var($fa-var-times-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-check-circle {
+  .#{$fa-css-prefix}-check-circle:before {
+    @include ext-declare-fa-var($fa-var-check-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-question-circle {
+  .#{$fa-css-prefix}-question-circle:before {
+    @include ext-declare-fa-var($fa-var-question-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-info-circle {
+  .#{$fa-css-prefix}-info-circle:before {
+    @include ext-declare-fa-var($fa-var-info-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-crosshairs {
+  .#{$fa-css-prefix}-crosshairs:before {
+    @include ext-declare-fa-var($fa-var-crosshairs);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-times-circle-o {
+  .#{$fa-css-prefix}-times-circle-o:before {
+    @include ext-declare-fa-var($fa-var-times-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-check-circle-o {
+  .#{$fa-css-prefix}-check-circle-o:before {
+    @include ext-declare-fa-var($fa-var-check-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ban {
+  .#{$fa-css-prefix}-ban:before {
+    @include ext-declare-fa-var($fa-var-ban);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-left {
+  .#{$fa-css-prefix}-arrow-left:before {
+    @include ext-declare-fa-var($fa-var-arrow-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-right {
+  .#{$fa-css-prefix}-arrow-right:before {
+    @include ext-declare-fa-var($fa-var-arrow-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-up {
+  .#{$fa-css-prefix}-arrow-up:before {
+    @include ext-declare-fa-var($fa-var-arrow-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-down {
+  .#{$fa-css-prefix}-arrow-down:before {
+    @include ext-declare-fa-var($fa-var-arrow-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mail-forward  or $ext-use-fa-share {
+  .#{$fa-css-prefix}-mail-forward:before,
+  .#{$fa-css-prefix}-share:before {
+    @include ext-declare-fa-var($fa-var-share);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-expand {
+  .#{$fa-css-prefix}-expand:before {
+    @include ext-declare-fa-var($fa-var-expand);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-compress {
+  .#{$fa-css-prefix}-compress:before {
+    @include ext-declare-fa-var($fa-var-compress);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plus {
+  .#{$fa-css-prefix}-plus:before {
+    @include ext-declare-fa-var($fa-var-plus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-minus {
+  .#{$fa-css-prefix}-minus:before {
+    @include ext-declare-fa-var($fa-var-minus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-asterisk {
+  .#{$fa-css-prefix}-asterisk:before {
+    @include ext-declare-fa-var($fa-var-asterisk);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-exclamation-circle {
+  .#{$fa-css-prefix}-exclamation-circle:before {
+    @include ext-declare-fa-var($fa-var-exclamation-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gift {
+  .#{$fa-css-prefix}-gift:before {
+    @include ext-declare-fa-var($fa-var-gift);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-leaf {
+  .#{$fa-css-prefix}-leaf:before {
+    @include ext-declare-fa-var($fa-var-leaf);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fire {
+  .#{$fa-css-prefix}-fire:before {
+    @include ext-declare-fa-var($fa-var-fire);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eye {
+  .#{$fa-css-prefix}-eye:before {
+    @include ext-declare-fa-var($fa-var-eye);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eye-slash {
+  .#{$fa-css-prefix}-eye-slash:before {
+    @include ext-declare-fa-var($fa-var-eye-slash);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-warning or $ext-use-fa-exclamation-triangle {
+  .#{$fa-css-prefix}-warning:before,
+  .#{$fa-css-prefix}-exclamation-triangle:before {
+    @include ext-declare-fa-var($fa-var-exclamation-triangle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plane {
+  .#{$fa-css-prefix}-plane:before {
+    @include ext-declare-fa-var($fa-var-plane);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar {
+  .#{$fa-css-prefix}-calendar:before {
+    @include ext-declare-fa-var($fa-var-calendar);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-random {
+  .#{$fa-css-prefix}-random:before {
+    @include ext-declare-fa-var($fa-var-random);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-comment {
+  .#{$fa-css-prefix}-comment:before {
+    @include ext-declare-fa-var($fa-var-comment);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-magnet {
+  .#{$fa-css-prefix}-magnet:before {
+    @include ext-declare-fa-var($fa-var-magnet);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-up {
+  .#{$fa-css-prefix}-chevron-up:before {
+    @include ext-declare-fa-var($fa-var-chevron-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-down {
+  .#{$fa-css-prefix}-chevron-down:before {
+    @include ext-declare-fa-var($fa-var-chevron-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-retweet {
+  .#{$fa-css-prefix}-retweet:before {
+    @include ext-declare-fa-var($fa-var-retweet);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shopping-cart {
+  .#{$fa-css-prefix}-shopping-cart:before {
+    @include ext-declare-fa-var($fa-var-shopping-cart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-folder {
+  .#{$fa-css-prefix}-folder:before {
+    @include ext-declare-fa-var($fa-var-folder);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-folder-open {
+  .#{$fa-css-prefix}-folder-open:before {
+    @include ext-declare-fa-var($fa-var-folder-open);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrows-v {
+  .#{$fa-css-prefix}-arrows-v:before {
+    @include ext-declare-fa-var($fa-var-arrows-v);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrows-h {
+  .#{$fa-css-prefix}-arrows-h:before {
+    @include ext-declare-fa-var($fa-var-arrows-h);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bar-chart-o or $ext-use-fa-bar-chart {
+  .#{$fa-css-prefix}-bar-chart-o:before,
+  .#{$fa-css-prefix}-bar-chart:before {
+    @include ext-declare-fa-var($fa-var-bar-chart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-twitter-square {
+  .#{$fa-css-prefix}-twitter-square:before {
+    @include ext-declare-fa-var($fa-var-twitter-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-facebook-square {
+  .#{$fa-css-prefix}-facebook-square:before {
+    @include ext-declare-fa-var($fa-var-facebook-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-camera-retro {
+  .#{$fa-css-prefix}-camera-retro:before {
+    @include ext-declare-fa-var($fa-var-camera-retro);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-key {
+  .#{$fa-css-prefix}-key:before {
+    @include ext-declare-fa-var($fa-var-key);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gears or $ext-use-fa-cogs {
+  .#{$fa-css-prefix}-gears:before,
+  .#{$fa-css-prefix}-cogs:before {
+    @include ext-declare-fa-var($fa-var-cogs);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-comments {
+  .#{$fa-css-prefix}-comments:before {
+    @include ext-declare-fa-var($fa-var-comments);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thumbs-o-up {
+  .#{$fa-css-prefix}-thumbs-o-up:before {
+    @include ext-declare-fa-var($fa-var-thumbs-o-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thumbs-o-down {
+  .#{$fa-css-prefix}-thumbs-o-down:before {
+    @include ext-declare-fa-var($fa-var-thumbs-o-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-star-half {
+  .#{$fa-css-prefix}-star-half:before {
+    @include ext-declare-fa-var($fa-var-star-half);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-heart-o {
+  .#{$fa-css-prefix}-heart-o:before {
+    @include ext-declare-fa-var($fa-var-heart-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sign-out {
+  .#{$fa-css-prefix}-sign-out:before {
+    @include ext-declare-fa-var($fa-var-sign-out);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-linkedin-square {
+  .#{$fa-css-prefix}-linkedin-square:before {
+    @include ext-declare-fa-var($fa-var-linkedin-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thumb-tack {
+  .#{$fa-css-prefix}-thumb-tack:before {
+    @include ext-declare-fa-var($fa-var-thumb-tack);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-external-link {
+  .#{$fa-css-prefix}-external-link:before {
+    @include ext-declare-fa-var($fa-var-external-link);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sign-in {
+  .#{$fa-css-prefix}-sign-in:before {
+    @include ext-declare-fa-var($fa-var-sign-in);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-trophy {
+  .#{$fa-css-prefix}-trophy:before {
+    @include ext-declare-fa-var($fa-var-trophy);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-github-square {
+  .#{$fa-css-prefix}-github-square:before {
+    @include ext-declare-fa-var($fa-var-github-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-upload {
+  .#{$fa-css-prefix}-upload:before {
+    @include ext-declare-fa-var($fa-var-upload);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-lemon-o {
+  .#{$fa-css-prefix}-lemon-o:before {
+    @include ext-declare-fa-var($fa-var-lemon-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-phone {
+  .#{$fa-css-prefix}-phone:before {
+    @include ext-declare-fa-var($fa-var-phone);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-square-o {
+  .#{$fa-css-prefix}-square-o:before {
+    @include ext-declare-fa-var($fa-var-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bookmark-o {
+  .#{$fa-css-prefix}-bookmark-o:before {
+    @include ext-declare-fa-var($fa-var-bookmark-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-phone-square {
+  .#{$fa-css-prefix}-phone-square:before {
+    @include ext-declare-fa-var($fa-var-phone-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-twitter {
+  .#{$fa-css-prefix}-twitter:before {
+    @include ext-declare-fa-var($fa-var-twitter);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-facebook-f or $ext-use-fa-facebook {
+  .#{$fa-css-prefix}-facebook-f:before,
+  .#{$fa-css-prefix}-facebook:before {
+    @include ext-declare-fa-var($fa-var-facebook);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-github {
+  .#{$fa-css-prefix}-github:before {
+    @include ext-declare-fa-var($fa-var-github);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-unlock {
+  .#{$fa-css-prefix}-unlock:before {
+    @include ext-declare-fa-var($fa-var-unlock);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-credit-card {
+  .#{$fa-css-prefix}-credit-card:before {
+    @include ext-declare-fa-var($fa-var-credit-card);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-feed or $ext-use-fa-rss {
+  .#{$fa-css-prefix}-feed:before,
+  .#{$fa-css-prefix}-rss:before {
+    @include ext-declare-fa-var($fa-var-rss);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hdd-o {
+  .#{$fa-css-prefix}-hdd-o:before {
+    @include ext-declare-fa-var($fa-var-hdd-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bullhorn {
+  .#{$fa-css-prefix}-bullhorn:before {
+    @include ext-declare-fa-var($fa-var-bullhorn);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bell {
+  .#{$fa-css-prefix}-bell:before {
+    @include ext-declare-fa-var($fa-var-bell);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-certificate {
+  .#{$fa-css-prefix}-certificate:before {
+    @include ext-declare-fa-var($fa-var-certificate);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-o-right {
+  .#{$fa-css-prefix}-hand-o-right:before {
+    @include ext-declare-fa-var($fa-var-hand-o-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-o-left {
+  .#{$fa-css-prefix}-hand-o-left:before {
+    @include ext-declare-fa-var($fa-var-hand-o-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-o-up {
+  .#{$fa-css-prefix}-hand-o-up:before {
+    @include ext-declare-fa-var($fa-var-hand-o-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-o-down {
+  .#{$fa-css-prefix}-hand-o-down:before {
+    @include ext-declare-fa-var($fa-var-hand-o-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-left {
+  .#{$fa-css-prefix}-arrow-circle-left:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-right {
+  .#{$fa-css-prefix}-arrow-circle-right:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-up {
+  .#{$fa-css-prefix}-arrow-circle-up:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-down {
+  .#{$fa-css-prefix}-arrow-circle-down:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-globe {
+  .#{$fa-css-prefix}-globe:before {
+    @include ext-declare-fa-var($fa-var-globe);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wrench {
+  .#{$fa-css-prefix}-wrench:before {
+    @include ext-declare-fa-var($fa-var-wrench);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tasks {
+  .#{$fa-css-prefix}-tasks:before {
+    @include ext-declare-fa-var($fa-var-tasks);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-filter {
+  .#{$fa-css-prefix}-filter:before {
+    @include ext-declare-fa-var($fa-var-filter);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-briefcase {
+  .#{$fa-css-prefix}-briefcase:before {
+    @include ext-declare-fa-var($fa-var-briefcase);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrows-alt {
+  .#{$fa-css-prefix}-arrows-alt:before {
+    @include ext-declare-fa-var($fa-var-arrows-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-group or $ext-use-fa-users {
+  .#{$fa-css-prefix}-group:before,
+  .#{$fa-css-prefix}-users:before {
+    @include ext-declare-fa-var($fa-var-users);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chain or $ext-use-fa-link {
+  .#{$fa-css-prefix}-chain:before,
+  .#{$fa-css-prefix}-link:before {
+    @include ext-declare-fa-var($fa-var-link);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cloud {
+  .#{$fa-css-prefix}-cloud:before {
+    @include ext-declare-fa-var($fa-var-cloud);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flask {
+  .#{$fa-css-prefix}-flask:before {
+    @include ext-declare-fa-var($fa-var-flask);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cut or $ext-use-fa-scissors {
+  .#{$fa-css-prefix}-cut:before,
+  .#{$fa-css-prefix}-scissors:before {
+    @include ext-declare-fa-var($fa-var-scissors);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-copy or $ext-use-fa-files-o {
+  .#{$fa-css-prefix}-copy:before,
+  .#{$fa-css-prefix}-files-o:before {
+    @include ext-declare-fa-var($fa-var-files-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paperclip {
+  .#{$fa-css-prefix}-paperclip:before {
+    @include ext-declare-fa-var($fa-var-paperclip);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-save or $ext-use-fa-floppy-o {
+  .#{$fa-css-prefix}-save:before,
+  .#{$fa-css-prefix}-floppy-o:before {
+    @include ext-declare-fa-var($fa-var-floppy-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-square {
+  .#{$fa-css-prefix}-square:before {
+    @include ext-declare-fa-var($fa-var-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-navicon or $ext-use-fa-reorder or $ext-use-fa-bars {
+  .#{$fa-css-prefix}-navicon:before,
+  .#{$fa-css-prefix}-reorder:before,
+  .#{$fa-css-prefix}-bars:before {
+    @include ext-declare-fa-var($fa-var-bars);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-list-ul {
+  .#{$fa-css-prefix}-list-ul:before {
+    @include ext-declare-fa-var($fa-var-list-ul);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-list-ol {
+  .#{$fa-css-prefix}-list-ol:before {
+    @include ext-declare-fa-var($fa-var-list-ol);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-strikethrough {
+  .#{$fa-css-prefix}-strikethrough:before {
+    @include ext-declare-fa-var($fa-var-strikethrough);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-underline {
+  .#{$fa-css-prefix}-underline:before {
+    @include ext-declare-fa-var($fa-var-underline);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-table {
+  .#{$fa-css-prefix}-table:before {
+    @include ext-declare-fa-var($fa-var-table);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-magic {
+  .#{$fa-css-prefix}-magic:before {
+    @include ext-declare-fa-var($fa-var-magic);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-truck {
+  .#{$fa-css-prefix}-truck:before {
+    @include ext-declare-fa-var($fa-var-truck);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pinterest {
+  .#{$fa-css-prefix}-pinterest:before {
+    @include ext-declare-fa-var($fa-var-pinterest);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pinterest-square {
+  .#{$fa-css-prefix}-pinterest-square:before {
+    @include ext-declare-fa-var($fa-var-pinterest-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-google-plus-square {
+  .#{$fa-css-prefix}-google-plus-square:before {
+    @include ext-declare-fa-var($fa-var-google-plus-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-google-plus {
+  .#{$fa-css-prefix}-google-plus:before {
+    @include ext-declare-fa-var($fa-var-google-plus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-money {
+  .#{$fa-css-prefix}-money:before {
+    @include ext-declare-fa-var($fa-var-money);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-caret-down {
+  .#{$fa-css-prefix}-caret-down:before {
+    @include ext-declare-fa-var($fa-var-caret-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-caret-up {
+  .#{$fa-css-prefix}-caret-up:before {
+    @include ext-declare-fa-var($fa-var-caret-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-caret-left {
+  .#{$fa-css-prefix}-caret-left:before {
+    @include ext-declare-fa-var($fa-var-caret-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-caret-right {
+  .#{$fa-css-prefix}-caret-right:before {
+    @include ext-declare-fa-var($fa-var-caret-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-columns {
+  .#{$fa-css-prefix}-columns:before {
+    @include ext-declare-fa-var($fa-var-columns);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-unsorted or $ext-use-fa-sort {
+  .#{$fa-css-prefix}-unsorted:before,
+  .#{$fa-css-prefix}-sort:before {
+    @include ext-declare-fa-var($fa-var-sort);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-down or $ext-use-fa-sort-desc {
+  .#{$fa-css-prefix}-sort-down:before,
+  .#{$fa-css-prefix}-sort-desc:before {
+    @include ext-declare-fa-var($fa-var-sort-desc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-up or $ext-use-fa-sort-asc {
+  .#{$fa-css-prefix}-sort-up:before,
+  .#{$fa-css-prefix}-sort-asc:before {
+    @include ext-declare-fa-var($fa-var-sort-asc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envelope {
+  .#{$fa-css-prefix}-envelope:before {
+    @include ext-declare-fa-var($fa-var-envelope);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-linkedin {
+  .#{$fa-css-prefix}-linkedin:before {
+    @include ext-declare-fa-var($fa-var-linkedin);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-rotate-left or $ext-use-fa-undo {
+  .#{$fa-css-prefix}-rotate-left:before,
+  .#{$fa-css-prefix}-undo:before {
+    @include ext-declare-fa-var($fa-var-undo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-legal or $ext-use-fa-gavel {
+  .#{$fa-css-prefix}-legal:before,
+  .#{$fa-css-prefix}-gavel:before {
+    @include ext-declare-fa-var($fa-var-gavel);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dashboard or $ext-use-fa-tachometer {
+  .#{$fa-css-prefix}-dashboard:before,
+  .#{$fa-css-prefix}-tachometer:before {
+    @include ext-declare-fa-var($fa-var-tachometer);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-comment-o {
+  .#{$fa-css-prefix}-comment-o:before {
+    @include ext-declare-fa-var($fa-var-comment-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-comments-o {
+  .#{$fa-css-prefix}-comments-o:before {
+    @include ext-declare-fa-var($fa-var-comments-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flash or $ext-use-fa-bolt {
+  .#{$fa-css-prefix}-flash:before,
+  .#{$fa-css-prefix}-bolt:before {
+    @include ext-declare-fa-var($fa-var-bolt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sitemap {
+  .#{$fa-css-prefix}-sitemap:before {
+    @include ext-declare-fa-var($fa-var-sitemap);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-umbrella {
+  .#{$fa-css-prefix}-umbrella:before {
+    @include ext-declare-fa-var($fa-var-umbrella);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paste or $ext-use-fa-clipboard {
+  .#{$fa-css-prefix}-paste:before,
+  .#{$fa-css-prefix}-clipboard:before {
+    @include ext-declare-fa-var($fa-var-clipboard);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-lightbulb-o {
+  .#{$fa-css-prefix}-lightbulb-o:before {
+    @include ext-declare-fa-var($fa-var-lightbulb-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-exchange {
+  .#{$fa-css-prefix}-exchange:before {
+    @include ext-declare-fa-var($fa-var-exchange);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cloud-download {
+  .#{$fa-css-prefix}-cloud-download:before {
+    @include ext-declare-fa-var($fa-var-cloud-download);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cloud-upload {
+  .#{$fa-css-prefix}-cloud-upload:before {
+    @include ext-declare-fa-var($fa-var-cloud-upload);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-md {
+  .#{$fa-css-prefix}-user-md:before {
+    @include ext-declare-fa-var($fa-var-user-md);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stethoscope {
+  .#{$fa-css-prefix}-stethoscope:before {
+    @include ext-declare-fa-var($fa-var-stethoscope);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-suitcase {
+  .#{$fa-css-prefix}-suitcase:before {
+    @include ext-declare-fa-var($fa-var-suitcase);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bell-o {
+  .#{$fa-css-prefix}-bell-o:before {
+    @include ext-declare-fa-var($fa-var-bell-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-coffee {
+  .#{$fa-css-prefix}-coffee:before {
+    @include ext-declare-fa-var($fa-var-coffee);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cutlery {
+  .#{$fa-css-prefix}-cutlery:before {
+    @include ext-declare-fa-var($fa-var-cutlery);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-text-o {
+  .#{$fa-css-prefix}-file-text-o:before {
+    @include ext-declare-fa-var($fa-var-file-text-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-building-o {
+  .#{$fa-css-prefix}-building-o:before {
+    @include ext-declare-fa-var($fa-var-building-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hospital-o {
+  .#{$fa-css-prefix}-hospital-o:before {
+    @include ext-declare-fa-var($fa-var-hospital-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ambulance {
+  .#{$fa-css-prefix}-ambulance:before {
+    @include ext-declare-fa-var($fa-var-ambulance);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-medkit {
+  .#{$fa-css-prefix}-medkit:before {
+    @include ext-declare-fa-var($fa-var-medkit);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fighter-jet {
+  .#{$fa-css-prefix}-fighter-jet:before {
+    @include ext-declare-fa-var($fa-var-fighter-jet);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-beer {
+  .#{$fa-css-prefix}-beer:before {
+    @include ext-declare-fa-var($fa-var-beer);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-h-square {
+  .#{$fa-css-prefix}-h-square:before {
+    @include ext-declare-fa-var($fa-var-h-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plus-square {
+  .#{$fa-css-prefix}-plus-square:before {
+    @include ext-declare-fa-var($fa-var-plus-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-double-left {
+  .#{$fa-css-prefix}-angle-double-left:before {
+    @include ext-declare-fa-var($fa-var-angle-double-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-double-right {
+  .#{$fa-css-prefix}-angle-double-right:before {
+    @include ext-declare-fa-var($fa-var-angle-double-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-double-up {
+  .#{$fa-css-prefix}-angle-double-up:before {
+    @include ext-declare-fa-var($fa-var-angle-double-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-double-down {
+  .#{$fa-css-prefix}-angle-double-down:before {
+    @include ext-declare-fa-var($fa-var-angle-double-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-left {
+  .#{$fa-css-prefix}-angle-left:before {
+    @include ext-declare-fa-var($fa-var-angle-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-right {
+  .#{$fa-css-prefix}-angle-right:before {
+    @include ext-declare-fa-var($fa-var-angle-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-up {
+  .#{$fa-css-prefix}-angle-up:before {
+    @include ext-declare-fa-var($fa-var-angle-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angle-down {
+  .#{$fa-css-prefix}-angle-down:before {
+    @include ext-declare-fa-var($fa-var-angle-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-desktop {
+  .#{$fa-css-prefix}-desktop:before {
+    @include ext-declare-fa-var($fa-var-desktop);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-laptop {
+  .#{$fa-css-prefix}-laptop:before {
+    @include ext-declare-fa-var($fa-var-laptop);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tablet {
+  .#{$fa-css-prefix}-tablet:before {
+    @include ext-declare-fa-var($fa-var-tablet);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mobile-phone or $ext-use-fa-mobile {
+  .#{$fa-css-prefix}-mobile-phone:before,
+  .#{$fa-css-prefix}-mobile:before {
+    @include ext-declare-fa-var($fa-var-mobile);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-circle-o {
+  .#{$fa-css-prefix}-circle-o:before {
+    @include ext-declare-fa-var($fa-var-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-quote-left {
+  .#{$fa-css-prefix}-quote-left:before {
+    @include ext-declare-fa-var($fa-var-quote-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-quote-right {
+  .#{$fa-css-prefix}-quote-right:before {
+    @include ext-declare-fa-var($fa-var-quote-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-spinner {
+  .#{$fa-css-prefix}-spinner:before {
+    @include ext-declare-fa-var($fa-var-spinner);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-circle {
+  .#{$fa-css-prefix}-circle:before {
+    @include ext-declare-fa-var($fa-var-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mail-reply or $ext-use-fa-reply {
+  .#{$fa-css-prefix}-mail-reply:before,
+  .#{$fa-css-prefix}-reply:before {
+    @include ext-declare-fa-var($fa-var-reply);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-github-alt {
+  .#{$fa-css-prefix}-github-alt:before {
+    @include ext-declare-fa-var($fa-var-github-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-folder-o {
+  .#{$fa-css-prefix}-folder-o:before {
+    @include ext-declare-fa-var($fa-var-folder-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-folder-open-o {
+  .#{$fa-css-prefix}-folder-open-o:before {
+    @include ext-declare-fa-var($fa-var-folder-open-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-smile-o {
+  .#{$fa-css-prefix}-smile-o:before {
+    @include ext-declare-fa-var($fa-var-smile-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-frown-o {
+  .#{$fa-css-prefix}-frown-o:before {
+    @include ext-declare-fa-var($fa-var-frown-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-meh-o {
+  .#{$fa-css-prefix}-meh-o:before {
+    @include ext-declare-fa-var($fa-var-meh-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gamepad {
+  .#{$fa-css-prefix}-gamepad:before {
+    @include ext-declare-fa-var($fa-var-gamepad);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-keyboard-o {
+  .#{$fa-css-prefix}-keyboard-o:before {
+    @include ext-declare-fa-var($fa-var-keyboard-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flag-o {
+  .#{$fa-css-prefix}-flag-o:before {
+    @include ext-declare-fa-var($fa-var-flag-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flag-checkered {
+  .#{$fa-css-prefix}-flag-checkered:before {
+    @include ext-declare-fa-var($fa-var-flag-checkered);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-terminal {
+  .#{$fa-css-prefix}-terminal:before {
+    @include ext-declare-fa-var($fa-var-terminal);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-code {
+  .#{$fa-css-prefix}-code:before {
+    @include ext-declare-fa-var($fa-var-code);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mail-reply-all or $ext-use-fa-reply-all {
+  .#{$fa-css-prefix}-mail-reply-all:before,
+  .#{$fa-css-prefix}-reply-all:before {
+    @include ext-declare-fa-var($fa-var-reply-all);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-star-half-empty or $ext-use-fa-star-half-full or $ext-use-fa-star-half-o {
+  .#{$fa-css-prefix}-star-half-empty:before,
+  .#{$fa-css-prefix}-star-half-full:before,
+  .#{$fa-css-prefix}-star-half-o:before {
+    @include ext-declare-fa-var($fa-var-star-half-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-location-arrow {
+  .#{$fa-css-prefix}-location-arrow:before {
+    @include ext-declare-fa-var($fa-var-location-arrow);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-crop {
+  .#{$fa-css-prefix}-crop:before {
+    @include ext-declare-fa-var($fa-var-crop);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-code-fork {
+  .#{$fa-css-prefix}-code-fork:before {
+    @include ext-declare-fa-var($fa-var-code-fork);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-unlink or $ext-use-fa-chain-broken {
+  .#{$fa-css-prefix}-unlink:before,
+  .#{$fa-css-prefix}-chain-broken:before {
+    @include ext-declare-fa-var($fa-var-chain-broken);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-question {
+  .#{$fa-css-prefix}-question:before {
+    @include ext-declare-fa-var($fa-var-question);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-info {
+  .#{$fa-css-prefix}-info:before {
+    @include ext-declare-fa-var($fa-var-info);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-exclamation {
+  .#{$fa-css-prefix}-exclamation:before {
+    @include ext-declare-fa-var($fa-var-exclamation);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-superscript {
+  .#{$fa-css-prefix}-superscript:before {
+    @include ext-declare-fa-var($fa-var-superscript);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-subscript {
+  .#{$fa-css-prefix}-subscript:before {
+    @include ext-declare-fa-var($fa-var-subscript);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eraser {
+  .#{$fa-css-prefix}-eraser:before {
+    @include ext-declare-fa-var($fa-var-eraser);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-puzzle-piece {
+  .#{$fa-css-prefix}-puzzle-piece:before {
+    @include ext-declare-fa-var($fa-var-puzzle-piece);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-microphone {
+  .#{$fa-css-prefix}-microphone:before {
+    @include ext-declare-fa-var($fa-var-microphone);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-microphone-slash {
+  .#{$fa-css-prefix}-microphone-slash:before {
+    @include ext-declare-fa-var($fa-var-microphone-slash);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shield {
+  .#{$fa-css-prefix}-shield:before {
+    @include ext-declare-fa-var($fa-var-shield);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar-o {
+  .#{$fa-css-prefix}-calendar-o:before {
+    @include ext-declare-fa-var($fa-var-calendar-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fire-extinguisher {
+  .#{$fa-css-prefix}-fire-extinguisher:before {
+    @include ext-declare-fa-var($fa-var-fire-extinguisher);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-rocket {
+  .#{$fa-css-prefix}-rocket:before {
+    @include ext-declare-fa-var($fa-var-rocket);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-maxcdn {
+  .#{$fa-css-prefix}-maxcdn:before {
+    @include ext-declare-fa-var($fa-var-maxcdn);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-circle-left {
+  .#{$fa-css-prefix}-chevron-circle-left:before {
+    @include ext-declare-fa-var($fa-var-chevron-circle-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-circle-right {
+  .#{$fa-css-prefix}-chevron-circle-right:before {
+    @include ext-declare-fa-var($fa-var-chevron-circle-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-circle-up {
+  .#{$fa-css-prefix}-chevron-circle-up:before {
+    @include ext-declare-fa-var($fa-var-chevron-circle-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chevron-circle-down {
+  .#{$fa-css-prefix}-chevron-circle-down:before {
+    @include ext-declare-fa-var($fa-var-chevron-circle-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-html5 {
+  .#{$fa-css-prefix}-html5:before {
+    @include ext-declare-fa-var($fa-var-html5);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-css3 {
+  .#{$fa-css-prefix}-css3:before {
+    @include ext-declare-fa-var($fa-var-css3);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-anchor {
+  .#{$fa-css-prefix}-anchor:before {
+    @include ext-declare-fa-var($fa-var-anchor);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-unlock-alt {
+  .#{$fa-css-prefix}-unlock-alt:before {
+    @include ext-declare-fa-var($fa-var-unlock-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bullseye {
+  .#{$fa-css-prefix}-bullseye:before {
+    @include ext-declare-fa-var($fa-var-bullseye);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ellipsis-h {
+  .#{$fa-css-prefix}-ellipsis-h:before {
+    @include ext-declare-fa-var($fa-var-ellipsis-h);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ellipsis-v {
+  .#{$fa-css-prefix}-ellipsis-v:before {
+    @include ext-declare-fa-var($fa-var-ellipsis-v);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-rss-square {
+  .#{$fa-css-prefix}-rss-square:before {
+    @include ext-declare-fa-var($fa-var-rss-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-play-circle {
+  .#{$fa-css-prefix}-play-circle:before {
+    @include ext-declare-fa-var($fa-var-play-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ticket {
+  .#{$fa-css-prefix}-ticket:before {
+    @include ext-declare-fa-var($fa-var-ticket);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-minus-square {
+  .#{$fa-css-prefix}-minus-square:before {
+    @include ext-declare-fa-var($fa-var-minus-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-minus-square-o {
+  .#{$fa-css-prefix}-minus-square-o:before {
+    @include ext-declare-fa-var($fa-var-minus-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-level-up {
+  .#{$fa-css-prefix}-level-up:before {
+    @include ext-declare-fa-var($fa-var-level-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-level-down {
+  .#{$fa-css-prefix}-level-down:before {
+    @include ext-declare-fa-var($fa-var-level-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-check-square {
+  .#{$fa-css-prefix}-check-square:before {
+    @include ext-declare-fa-var($fa-var-check-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pencil-square {
+  .#{$fa-css-prefix}-pencil-square:before {
+    @include ext-declare-fa-var($fa-var-pencil-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-external-link-square {
+  .#{$fa-css-prefix}-external-link-square:before {
+    @include ext-declare-fa-var($fa-var-external-link-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-share-square {
+  .#{$fa-css-prefix}-share-square:before {
+    @include ext-declare-fa-var($fa-var-share-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-compass {
+  .#{$fa-css-prefix}-compass:before {
+    @include ext-declare-fa-var($fa-var-compass);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-down or $ext-use-fa-caret-square-o-down {
+  .#{$fa-css-prefix}-toggle-down:before,
+  .#{$fa-css-prefix}-caret-square-o-down:before {
+    @include ext-declare-fa-var($fa-var-caret-square-o-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-up or $ext-use-fa-caret-square-o-up {
+  .#{$fa-css-prefix}-toggle-up:before,
+  .#{$fa-css-prefix}-caret-square-o-up:before {
+    @include ext-declare-fa-var($fa-var-caret-square-o-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-right or $ext-use-fa-caret-square-o-right {
+  .#{$fa-css-prefix}-toggle-right:before,
+  .#{$fa-css-prefix}-caret-square-o-right:before {
+    @include ext-declare-fa-var($fa-var-caret-square-o-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-euro or $ext-use-fa-eur {
+  .#{$fa-css-prefix}-euro:before,
+  .#{$fa-css-prefix}-eur:before {
+    @include ext-declare-fa-var($fa-var-eur);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gbp {
+  .#{$fa-css-prefix}-gbp:before {
+    @include ext-declare-fa-var($fa-var-gbp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dollar or $ext-use-fa-usd {
+  .#{$fa-css-prefix}-dollar:before,
+  .#{$fa-css-prefix}-usd:before {
+    @include ext-declare-fa-var($fa-var-usd);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-rupee or $ext-use-fa-inr {
+  .#{$fa-css-prefix}-rupee:before,
+  .#{$fa-css-prefix}-inr:before {
+    @include ext-declare-fa-var($fa-var-inr);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cny or $ext-use-fa-rmb or $ext-use-fa-yen or $ext-use-fa-jpy {
+  .#{$fa-css-prefix}-cny:before,
+  .#{$fa-css-prefix}-rmb:before,
+  .#{$fa-css-prefix}-yen:before,
+  .#{$fa-css-prefix}-jpy:before {
+    @include ext-declare-fa-var($fa-var-jpy);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ruble or $ext-use-fa-rouble or $ext-use-fa-rub {
+  .#{$fa-css-prefix}-ruble:before,
+  .#{$fa-css-prefix}-rouble:before,
+  .#{$fa-css-prefix}-rub:before {
+    @include ext-declare-fa-var($fa-var-rub);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-won or $ext-use-fa-krw {
+  .#{$fa-css-prefix}-won:before,
+  .#{$fa-css-prefix}-krw:before {
+    @include ext-declare-fa-var($fa-var-krw);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bitcoin or $ext-use-fa-btc {
+  .#{$fa-css-prefix}-bitcoin:before,
+  .#{$fa-css-prefix}-btc:before {
+    @include ext-declare-fa-var($fa-var-btc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file {
+  .#{$fa-css-prefix}-file:before {
+    @include ext-declare-fa-var($fa-var-file);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-text {
+  .#{$fa-css-prefix}-file-text:before {
+    @include ext-declare-fa-var($fa-var-file-text);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-alpha-asc {
+  .#{$fa-css-prefix}-sort-alpha-asc:before {
+    @include ext-declare-fa-var($fa-var-sort-alpha-asc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-alpha-desc {
+  .#{$fa-css-prefix}-sort-alpha-desc:before {
+    @include ext-declare-fa-var($fa-var-sort-alpha-desc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-amount-asc {
+  .#{$fa-css-prefix}-sort-amount-asc:before {
+    @include ext-declare-fa-var($fa-var-sort-amount-asc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-amount-desc {
+  .#{$fa-css-prefix}-sort-amount-desc:before {
+    @include ext-declare-fa-var($fa-var-sort-amount-desc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-numeric-asc {
+  .#{$fa-css-prefix}-sort-numeric-asc:before {
+    @include ext-declare-fa-var($fa-var-sort-numeric-asc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sort-numeric-desc {
+  .#{$fa-css-prefix}-sort-numeric-desc:before {
+    @include ext-declare-fa-var($fa-var-sort-numeric-desc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thumbs-up {
+  .#{$fa-css-prefix}-thumbs-up:before {
+    @include ext-declare-fa-var($fa-var-thumbs-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thumbs-down {
+  .#{$fa-css-prefix}-thumbs-down:before {
+    @include ext-declare-fa-var($fa-var-thumbs-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-youtube-square {
+  .#{$fa-css-prefix}-youtube-square:before {
+    @include ext-declare-fa-var($fa-var-youtube-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-youtube {
+  .#{$fa-css-prefix}-youtube:before {
+    @include ext-declare-fa-var($fa-var-youtube);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-xing {
+  .#{$fa-css-prefix}-xing:before {
+    @include ext-declare-fa-var($fa-var-xing);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-xing-square {
+  .#{$fa-css-prefix}-xing-square:before {
+    @include ext-declare-fa-var($fa-var-xing-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-youtube-play {
+  .#{$fa-css-prefix}-youtube-play:before {
+    @include ext-declare-fa-var($fa-var-youtube-play);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dropbox {
+  .#{$fa-css-prefix}-dropbox:before {
+    @include ext-declare-fa-var($fa-var-dropbox);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stack-overflow {
+  .#{$fa-css-prefix}-stack-overflow:before {
+    @include ext-declare-fa-var($fa-var-stack-overflow);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-instagram {
+  .#{$fa-css-prefix}-instagram:before {
+    @include ext-declare-fa-var($fa-var-instagram);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-flickr {
+  .#{$fa-css-prefix}-flickr:before {
+    @include ext-declare-fa-var($fa-var-flickr);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-adn {
+  .#{$fa-css-prefix}-adn:before {
+    @include ext-declare-fa-var($fa-var-adn);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bitbucket {
+  .#{$fa-css-prefix}-bitbucket:before {
+    @include ext-declare-fa-var($fa-var-bitbucket);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bitbucket-square {
+  .#{$fa-css-prefix}-bitbucket-square:before {
+    @include ext-declare-fa-var($fa-var-bitbucket-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tumblr {
+  .#{$fa-css-prefix}-tumblr:before {
+    @include ext-declare-fa-var($fa-var-tumblr);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tumblr-square {
+  .#{$fa-css-prefix}-tumblr-square:before {
+    @include ext-declare-fa-var($fa-var-tumblr-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-long-arrow-down {
+  .#{$fa-css-prefix}-long-arrow-down:before {
+    @include ext-declare-fa-var($fa-var-long-arrow-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-long-arrow-up {
+  .#{$fa-css-prefix}-long-arrow-up:before {
+    @include ext-declare-fa-var($fa-var-long-arrow-up);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-long-arrow-left {
+  .#{$fa-css-prefix}-long-arrow-left:before {
+    @include ext-declare-fa-var($fa-var-long-arrow-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-long-arrow-right {
+  .#{$fa-css-prefix}-long-arrow-right:before {
+    @include ext-declare-fa-var($fa-var-long-arrow-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-apple {
+  .#{$fa-css-prefix}-apple:before {
+    @include ext-declare-fa-var($fa-var-apple);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-windows {
+  .#{$fa-css-prefix}-windows:before {
+    @include ext-declare-fa-var($fa-var-windows);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-android {
+  .#{$fa-css-prefix}-android:before {
+    @include ext-declare-fa-var($fa-var-android);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-linux {
+  .#{$fa-css-prefix}-linux:before {
+    @include ext-declare-fa-var($fa-var-linux);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dribbble {
+  .#{$fa-css-prefix}-dribbble:before {
+    @include ext-declare-fa-var($fa-var-dribbble);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-skype {
+  .#{$fa-css-prefix}-skype:before {
+    @include ext-declare-fa-var($fa-var-skype);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-foursquare {
+  .#{$fa-css-prefix}-foursquare:before {
+    @include ext-declare-fa-var($fa-var-foursquare);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-trello {
+  .#{$fa-css-prefix}-trello:before {
+    @include ext-declare-fa-var($fa-var-trello);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-female {
+  .#{$fa-css-prefix}-female:before {
+    @include ext-declare-fa-var($fa-var-female);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-male {
+  .#{$fa-css-prefix}-male:before {
+    @include ext-declare-fa-var($fa-var-male);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gittip or $ext-use-fa-gratipay {
+  .#{$fa-css-prefix}-gittip:before,
+  .#{$fa-css-prefix}-gratipay:before {
+    @include ext-declare-fa-var($fa-var-gratipay);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sun-o {
+  .#{$fa-css-prefix}-sun-o:before {
+    @include ext-declare-fa-var($fa-var-sun-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-moon-o {
+  .#{$fa-css-prefix}-moon-o:before {
+    @include ext-declare-fa-var($fa-var-moon-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-archive {
+  .#{$fa-css-prefix}-archive:before {
+    @include ext-declare-fa-var($fa-var-archive);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bug {
+  .#{$fa-css-prefix}-bug:before {
+    @include ext-declare-fa-var($fa-var-bug);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vk {
+  .#{$fa-css-prefix}-vk:before {
+    @include ext-declare-fa-var($fa-var-vk);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-weibo {
+  .#{$fa-css-prefix}-weibo:before {
+    @include ext-declare-fa-var($fa-var-weibo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-renren {
+  .#{$fa-css-prefix}-renren:before {
+    @include ext-declare-fa-var($fa-var-renren);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pagelines {
+  .#{$fa-css-prefix}-pagelines:before {
+    @include ext-declare-fa-var($fa-var-pagelines);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stack-exchange {
+  .#{$fa-css-prefix}-stack-exchange:before {
+    @include ext-declare-fa-var($fa-var-stack-exchange);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-o-right {
+  .#{$fa-css-prefix}-arrow-circle-o-right:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-o-right);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-arrow-circle-o-left {
+  .#{$fa-css-prefix}-arrow-circle-o-left:before {
+    @include ext-declare-fa-var($fa-var-arrow-circle-o-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-left or $ext-use-fa-caret-square-o-left {
+  .#{$fa-css-prefix}-toggle-left:before,
+  .#{$fa-css-prefix}-caret-square-o-left:before {
+    @include ext-declare-fa-var($fa-var-caret-square-o-left);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dot-circle-o {
+  .#{$fa-css-prefix}-dot-circle-o:before {
+    @include ext-declare-fa-var($fa-var-dot-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wheelchair {
+  .#{$fa-css-prefix}-wheelchair:before {
+    @include ext-declare-fa-var($fa-var-wheelchair);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vimeo-square {
+  .#{$fa-css-prefix}-vimeo-square:before {
+    @include ext-declare-fa-var($fa-var-vimeo-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-turkish-lira or $ext-use-fa-try {
+  .#{$fa-css-prefix}-turkish-lira:before,
+  .#{$fa-css-prefix}-try:before {
+    @include ext-declare-fa-var($fa-var-try);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plus-square-o {
+  .#{$fa-css-prefix}-plus-square-o:before {
+    @include ext-declare-fa-var($fa-var-plus-square-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-space-shuttle {
+  .#{$fa-css-prefix}-space-shuttle:before {
+    @include ext-declare-fa-var($fa-var-space-shuttle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-slack {
+  .#{$fa-css-prefix}-slack:before {
+    @include ext-declare-fa-var($fa-var-slack);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envelope-square {
+  .#{$fa-css-prefix}-envelope-square:before {
+    @include ext-declare-fa-var($fa-var-envelope-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wordpress {
+  .#{$fa-css-prefix}-wordpress:before {
+    @include ext-declare-fa-var($fa-var-wordpress);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-openid {
+  .#{$fa-css-prefix}-openid:before {
+    @include ext-declare-fa-var($fa-var-openid);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-institution or $ext-use-fa-bank or $ext-use-fa-university {
+  .#{$fa-css-prefix}-institution:before,
+  .#{$fa-css-prefix}-bank:before,
+  .#{$fa-css-prefix}-university:before {
+    @include ext-declare-fa-var($fa-var-university);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mortar-board or $ext-use-fa-graduation-cap {
+  .#{$fa-css-prefix}-mortar-board:before,
+  .#{$fa-css-prefix}-graduation-cap:before {
+    @include ext-declare-fa-var($fa-var-graduation-cap);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-yahoo {
+  .#{$fa-css-prefix}-yahoo:before {
+    @include ext-declare-fa-var($fa-var-yahoo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-google {
+  .#{$fa-css-prefix}-google:before {
+    @include ext-declare-fa-var($fa-var-google);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-reddit {
+  .#{$fa-css-prefix}-reddit:before {
+    @include ext-declare-fa-var($fa-var-reddit);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-reddit-square {
+  .#{$fa-css-prefix}-reddit-square:before {
+    @include ext-declare-fa-var($fa-var-reddit-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stumbleupon-circle {
+  .#{$fa-css-prefix}-stumbleupon-circle:before {
+    @include ext-declare-fa-var($fa-var-stumbleupon-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stumbleupon {
+  .#{$fa-css-prefix}-stumbleupon:before {
+    @include ext-declare-fa-var($fa-var-stumbleupon);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-delicious {
+  .#{$fa-css-prefix}-delicious:before {
+    @include ext-declare-fa-var($fa-var-delicious);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-digg {
+  .#{$fa-css-prefix}-digg:before {
+    @include ext-declare-fa-var($fa-var-digg);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pied-piper-pp {
+  .#{$fa-css-prefix}-pied-piper-pp:before {
+    @include ext-declare-fa-var($fa-var-pied-piper-pp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pied-piper-alt {
+  .#{$fa-css-prefix}-pied-piper-alt:before {
+    @include ext-declare-fa-var($fa-var-pied-piper-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-drupal {
+  .#{$fa-css-prefix}-drupal:before {
+    @include ext-declare-fa-var($fa-var-drupal);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-joomla {
+  .#{$fa-css-prefix}-joomla:before {
+    @include ext-declare-fa-var($fa-var-joomla);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-language {
+  .#{$fa-css-prefix}-language:before {
+    @include ext-declare-fa-var($fa-var-language);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fax {
+  .#{$fa-css-prefix}-fax:before {
+    @include ext-declare-fa-var($fa-var-fax);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-building {
+  .#{$fa-css-prefix}-building:before {
+    @include ext-declare-fa-var($fa-var-building);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-child {
+  .#{$fa-css-prefix}-child:before {
+    @include ext-declare-fa-var($fa-var-child);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paw {
+  .#{$fa-css-prefix}-paw:before {
+    @include ext-declare-fa-var($fa-var-paw);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-spoon {
+  .#{$fa-css-prefix}-spoon:before {
+    @include ext-declare-fa-var($fa-var-spoon);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cube {
+  .#{$fa-css-prefix}-cube:before {
+    @include ext-declare-fa-var($fa-var-cube);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cubes {
+  .#{$fa-css-prefix}-cubes:before {
+    @include ext-declare-fa-var($fa-var-cubes);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-behance {
+  .#{$fa-css-prefix}-behance:before {
+    @include ext-declare-fa-var($fa-var-behance);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-behance-square {
+  .#{$fa-css-prefix}-behance-square:before {
+    @include ext-declare-fa-var($fa-var-behance-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-steam {
+  .#{$fa-css-prefix}-steam:before {
+    @include ext-declare-fa-var($fa-var-steam);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-steam-square {
+  .#{$fa-css-prefix}-steam-square:before {
+    @include ext-declare-fa-var($fa-var-steam-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-recycle {
+  .#{$fa-css-prefix}-recycle:before {
+    @include ext-declare-fa-var($fa-var-recycle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-automobile or $ext-use-fa-car {
+  .#{$fa-css-prefix}-automobile:before,
+  .#{$fa-css-prefix}-car:before {
+    @include ext-declare-fa-var($fa-var-car);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cab or $ext-use-fa-taxi {
+  .#{$fa-css-prefix}-cab:before,
+  .#{$fa-css-prefix}-taxi:before {
+    @include ext-declare-fa-var($fa-var-taxi);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tree {
+  .#{$fa-css-prefix}-tree:before {
+    @include ext-declare-fa-var($fa-var-tree);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-spotify {
+  .#{$fa-css-prefix}-spotify:before {
+    @include ext-declare-fa-var($fa-var-spotify);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-deviantart {
+  .#{$fa-css-prefix}-deviantart:before {
+    @include ext-declare-fa-var($fa-var-deviantart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-soundcloud {
+  .#{$fa-css-prefix}-soundcloud:before {
+    @include ext-declare-fa-var($fa-var-soundcloud);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-database {
+  .#{$fa-css-prefix}-database:before {
+    @include ext-declare-fa-var($fa-var-database);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-pdf-o {
+  .#{$fa-css-prefix}-file-pdf-o:before {
+    @include ext-declare-fa-var($fa-var-file-pdf-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-word-o {
+  .#{$fa-css-prefix}-file-word-o:before {
+    @include ext-declare-fa-var($fa-var-file-word-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-excel-o {
+  .#{$fa-css-prefix}-file-excel-o:before {
+    @include ext-declare-fa-var($fa-var-file-excel-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-powerpoint-o {
+  .#{$fa-css-prefix}-file-powerpoint-o:before {
+    @include ext-declare-fa-var($fa-var-file-powerpoint-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-photo-o or $ext-use-fa-file-picture-o or $ext-use-fa-file-image-o {
+  .#{$fa-css-prefix}-file-photo-o:before,
+  .#{$fa-css-prefix}-file-picture-o:before,
+  .#{$fa-css-prefix}-file-image-o:before {
+    @include ext-declare-fa-var($fa-var-file-image-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-zip-o or $ext-use-fa-file-archive-o {
+  .#{$fa-css-prefix}-file-zip-o:before,
+  .#{$fa-css-prefix}-file-archive-o:before {
+    @include ext-declare-fa-var($fa-var-file-archive-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-sound-o or $ext-use-fa-file-audio-o {
+  .#{$fa-css-prefix}-file-sound-o:before,
+  .#{$fa-css-prefix}-file-audio-o:before {
+    @include ext-declare-fa-var($fa-var-file-audio-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-movie-o or $ext-use-fa-file-video-o {
+  .#{$fa-css-prefix}-file-movie-o:before,
+  .#{$fa-css-prefix}-file-video-o:before {
+    @include ext-declare-fa-var($fa-var-file-video-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-file-code-o {
+  .#{$fa-css-prefix}-file-code-o:before {
+    @include ext-declare-fa-var($fa-var-file-code-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vine {
+  .#{$fa-css-prefix}-vine:before {
+    @include ext-declare-fa-var($fa-var-vine);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-codepen {
+  .#{$fa-css-prefix}-codepen:before {
+    @include ext-declare-fa-var($fa-var-codepen);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-jsfiddle {
+  .#{$fa-css-prefix}-jsfiddle:before {
+    @include ext-declare-fa-var($fa-var-jsfiddle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-life-bouy or $ext-use-fa-life-buoy or $ext-use-fa-life-saver or $ext-use-fa-support or $ext-use-fa-life-ring {
+  .#{$fa-css-prefix}-life-bouy:before,
+  .#{$fa-css-prefix}-life-buoy:before,
+  .#{$fa-css-prefix}-life-saver:before,
+  .#{$fa-css-prefix}-support:before,
+  .#{$fa-css-prefix}-life-ring:before {
+    @include ext-declare-fa-var($fa-var-life-ring);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-circle-o-notch {
+  .#{$fa-css-prefix}-circle-o-notch:before {
+    @include ext-declare-fa-var($fa-var-circle-o-notch);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ra or $ext-use-fa-resistance or $ext-use-fa-rebel {
+  .#{$fa-css-prefix}-ra:before,
+  .#{$fa-css-prefix}-resistance:before,
+  .#{$fa-css-prefix}-rebel:before {
+    @include ext-declare-fa-var($fa-var-rebel);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ge or $ext-use-fa-empire {
+  .#{$fa-css-prefix}-ge:before,
+  .#{$fa-css-prefix}-empire:before {
+    @include ext-declare-fa-var($fa-var-empire);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-git-square {
+  .#{$fa-css-prefix}-git-square:before {
+    @include ext-declare-fa-var($fa-var-git-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-git {
+  .#{$fa-css-prefix}-git:before {
+    @include ext-declare-fa-var($fa-var-git);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-y-combinator-square or $ext-use-fa-yc-square or $ext-use-fa-hacker-news {
+  .#{$fa-css-prefix}-y-combinator-square:before,
+  .#{$fa-css-prefix}-yc-square:before,
+  .#{$fa-css-prefix}-hacker-news:before {
+    @include ext-declare-fa-var($fa-var-hacker-news);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tencent-weibo {
+  .#{$fa-css-prefix}-tencent-weibo:before {
+    @include ext-declare-fa-var($fa-var-tencent-weibo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-qq {
+  .#{$fa-css-prefix}-qq:before {
+    @include ext-declare-fa-var($fa-var-qq);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wechat or $ext-use-fa-weixin {
+  .#{$fa-css-prefix}-wechat:before,
+  .#{$fa-css-prefix}-weixin:before {
+    @include ext-declare-fa-var($fa-var-weixin);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-send or $ext-use-fa-paper-plane {
+  .#{$fa-css-prefix}-send:before,
+  .#{$fa-css-prefix}-paper-plane:before {
+    @include ext-declare-fa-var($fa-var-paper-plane);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-send-o or $ext-use-fa-paper-plane-o {
+  .#{$fa-css-prefix}-send-o:before,
+  .#{$fa-css-prefix}-paper-plane-o:before {
+    @include ext-declare-fa-var($fa-var-paper-plane-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-history {
+  .#{$fa-css-prefix}-history:before {
+    @include ext-declare-fa-var($fa-var-history);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-circle-thin {
+  .#{$fa-css-prefix}-circle-thin:before {
+    @include ext-declare-fa-var($fa-var-circle-thin);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-header {
+  .#{$fa-css-prefix}-header:before {
+    @include ext-declare-fa-var($fa-var-header);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paragraph {
+  .#{$fa-css-prefix}-paragraph:before {
+    @include ext-declare-fa-var($fa-var-paragraph);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sliders {
+  .#{$fa-css-prefix}-sliders:before {
+    @include ext-declare-fa-var($fa-var-sliders);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-share-alt {
+  .#{$fa-css-prefix}-share-alt:before {
+    @include ext-declare-fa-var($fa-var-share-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-share-alt-square {
+  .#{$fa-css-prefix}-share-alt-square:before {
+    @include ext-declare-fa-var($fa-var-share-alt-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bomb {
+  .#{$fa-css-prefix}-bomb:before {
+    @include ext-declare-fa-var($fa-var-bomb);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-soccer-ball-o or $ext-use-fa-futbol-o {
+  .#{$fa-css-prefix}-soccer-ball-o:before,
+  .#{$fa-css-prefix}-futbol-o:before {
+    @include ext-declare-fa-var($fa-var-futbol-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tty {
+  .#{$fa-css-prefix}-tty:before {
+    @include ext-declare-fa-var($fa-var-tty);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-binoculars {
+  .#{$fa-css-prefix}-binoculars:before {
+    @include ext-declare-fa-var($fa-var-binoculars);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-plug {
+  .#{$fa-css-prefix}-plug:before {
+    @include ext-declare-fa-var($fa-var-plug);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-slideshare {
+  .#{$fa-css-prefix}-slideshare:before {
+    @include ext-declare-fa-var($fa-var-slideshare);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-twitch {
+  .#{$fa-css-prefix}-twitch:before {
+    @include ext-declare-fa-var($fa-var-twitch);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-yelp {
+  .#{$fa-css-prefix}-yelp:before {
+    @include ext-declare-fa-var($fa-var-yelp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-newspaper-o {
+  .#{$fa-css-prefix}-newspaper-o:before {
+    @include ext-declare-fa-var($fa-var-newspaper-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wifi {
+  .#{$fa-css-prefix}-wifi:before {
+    @include ext-declare-fa-var($fa-var-wifi);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calculator {
+  .#{$fa-css-prefix}-calculator:before {
+    @include ext-declare-fa-var($fa-var-calculator);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paypal {
+  .#{$fa-css-prefix}-paypal:before {
+    @include ext-declare-fa-var($fa-var-paypal);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-google-wallet {
+  .#{$fa-css-prefix}-google-wallet:before {
+    @include ext-declare-fa-var($fa-var-google-wallet);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-visa {
+  .#{$fa-css-prefix}-cc-visa:before {
+    @include ext-declare-fa-var($fa-var-cc-visa);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-mastercard {
+  .#{$fa-css-prefix}-cc-mastercard:before {
+    @include ext-declare-fa-var($fa-var-cc-mastercard);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-discover {
+  .#{$fa-css-prefix}-cc-discover:before {
+    @include ext-declare-fa-var($fa-var-cc-discover);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-amex {
+  .#{$fa-css-prefix}-cc-amex:before {
+    @include ext-declare-fa-var($fa-var-cc-amex);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-paypal {
+  .#{$fa-css-prefix}-cc-paypal:before {
+    @include ext-declare-fa-var($fa-var-cc-paypal);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-stripe {
+  .#{$fa-css-prefix}-cc-stripe:before {
+    @include ext-declare-fa-var($fa-var-cc-stripe);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bell-slash {
+  .#{$fa-css-prefix}-bell-slash:before {
+    @include ext-declare-fa-var($fa-var-bell-slash);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bell-slash-o {
+  .#{$fa-css-prefix}-bell-slash-o:before {
+    @include ext-declare-fa-var($fa-var-bell-slash-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-trash {
+  .#{$fa-css-prefix}-trash:before {
+    @include ext-declare-fa-var($fa-var-trash);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-copyright {
+  .#{$fa-css-prefix}-copyright:before {
+    @include ext-declare-fa-var($fa-var-copyright);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-at {
+  .#{$fa-css-prefix}-at:before {
+    @include ext-declare-fa-var($fa-var-at);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eyedropper {
+  .#{$fa-css-prefix}-eyedropper:before {
+    @include ext-declare-fa-var($fa-var-eyedropper);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-paint-brush {
+  .#{$fa-css-prefix}-paint-brush:before {
+    @include ext-declare-fa-var($fa-var-paint-brush);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-birthday-cake {
+  .#{$fa-css-prefix}-birthday-cake:before {
+    @include ext-declare-fa-var($fa-var-birthday-cake);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-area-chart {
+  .#{$fa-css-prefix}-area-chart:before {
+    @include ext-declare-fa-var($fa-var-area-chart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pie-chart {
+  .#{$fa-css-prefix}-pie-chart:before {
+    @include ext-declare-fa-var($fa-var-pie-chart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-line-chart {
+  .#{$fa-css-prefix}-line-chart:before {
+    @include ext-declare-fa-var($fa-var-line-chart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-lastfm {
+  .#{$fa-css-prefix}-lastfm:before {
+    @include ext-declare-fa-var($fa-var-lastfm);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-lastfm-square {
+  .#{$fa-css-prefix}-lastfm-square:before {
+    @include ext-declare-fa-var($fa-var-lastfm-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-off {
+  .#{$fa-css-prefix}-toggle-off:before {
+    @include ext-declare-fa-var($fa-var-toggle-off);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-toggle-on {
+  .#{$fa-css-prefix}-toggle-on:before {
+    @include ext-declare-fa-var($fa-var-toggle-on);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bicycle {
+  .#{$fa-css-prefix}-bicycle:before {
+    @include ext-declare-fa-var($fa-var-bicycle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bus {
+  .#{$fa-css-prefix}-bus:before {
+    @include ext-declare-fa-var($fa-var-bus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ioxhost {
+  .#{$fa-css-prefix}-ioxhost:before {
+    @include ext-declare-fa-var($fa-var-ioxhost);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-angellist {
+  .#{$fa-css-prefix}-angellist:before {
+    @include ext-declare-fa-var($fa-var-angellist);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc {
+  .#{$fa-css-prefix}-cc:before {
+    @include ext-declare-fa-var($fa-var-cc);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shekel or $ext-use-fa-sheqel or $ext-use-fa-ils {
+  .#{$fa-css-prefix}-shekel:before,
+  .#{$fa-css-prefix}-sheqel:before,
+  .#{$fa-css-prefix}-ils:before {
+    @include ext-declare-fa-var($fa-var-ils);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-meanpath {
+  .#{$fa-css-prefix}-meanpath:before {
+    @include ext-declare-fa-var($fa-var-meanpath);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-buysellads {
+  .#{$fa-css-prefix}-buysellads:before {
+    @include ext-declare-fa-var($fa-var-buysellads);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-connectdevelop {
+  .#{$fa-css-prefix}-connectdevelop:before {
+    @include ext-declare-fa-var($fa-var-connectdevelop);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-dashcube {
+  .#{$fa-css-prefix}-dashcube:before {
+    @include ext-declare-fa-var($fa-var-dashcube);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-forumbee {
+  .#{$fa-css-prefix}-forumbee:before {
+    @include ext-declare-fa-var($fa-var-forumbee);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-leanpub {
+  .#{$fa-css-prefix}-leanpub:before {
+    @include ext-declare-fa-var($fa-var-leanpub);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sellsy {
+  .#{$fa-css-prefix}-sellsy:before {
+    @include ext-declare-fa-var($fa-var-sellsy);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shirtsinbulk {
+  .#{$fa-css-prefix}-shirtsinbulk:before {
+    @include ext-declare-fa-var($fa-var-shirtsinbulk);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-simplybuilt {
+  .#{$fa-css-prefix}-simplybuilt:before {
+    @include ext-declare-fa-var($fa-var-simplybuilt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-skyatlas {
+  .#{$fa-css-prefix}-skyatlas:before {
+    @include ext-declare-fa-var($fa-var-skyatlas);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cart-plus {
+  .#{$fa-css-prefix}-cart-plus:before {
+    @include ext-declare-fa-var($fa-var-cart-plus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cart-arrow-down {
+  .#{$fa-css-prefix}-cart-arrow-down:before {
+    @include ext-declare-fa-var($fa-var-cart-arrow-down);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-diamond {
+  .#{$fa-css-prefix}-diamond:before {
+    @include ext-declare-fa-var($fa-var-diamond);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ship {
+  .#{$fa-css-prefix}-ship:before {
+    @include ext-declare-fa-var($fa-var-ship);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-secret {
+  .#{$fa-css-prefix}-user-secret:before {
+    @include ext-declare-fa-var($fa-var-user-secret);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-motorcycle {
+  .#{$fa-css-prefix}-motorcycle:before {
+    @include ext-declare-fa-var($fa-var-motorcycle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-street-view {
+  .#{$fa-css-prefix}-street-view:before {
+    @include ext-declare-fa-var($fa-var-street-view);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-heartbeat {
+  .#{$fa-css-prefix}-heartbeat:before {
+    @include ext-declare-fa-var($fa-var-heartbeat);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-venus {
+  .#{$fa-css-prefix}-venus:before {
+    @include ext-declare-fa-var($fa-var-venus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mars {
+  .#{$fa-css-prefix}-mars:before {
+    @include ext-declare-fa-var($fa-var-mars);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mercury {
+  .#{$fa-css-prefix}-mercury:before {
+    @include ext-declare-fa-var($fa-var-mercury);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-intersex or $ext-use-fa-transgender {
+  .#{$fa-css-prefix}-intersex:before,
+  .#{$fa-css-prefix}-transgender:before {
+    @include ext-declare-fa-var($fa-var-transgender);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-transgender-alt {
+  .#{$fa-css-prefix}-transgender-alt:before {
+    @include ext-declare-fa-var($fa-var-transgender-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-venus-double {
+  .#{$fa-css-prefix}-venus-double:before {
+    @include ext-declare-fa-var($fa-var-venus-double);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mars-double {
+  .#{$fa-css-prefix}-mars-double:before {
+    @include ext-declare-fa-var($fa-var-mars-double);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-venus-mars {
+  .#{$fa-css-prefix}-venus-mars:before {
+    @include ext-declare-fa-var($fa-var-venus-mars);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mars-stroke {
+  .#{$fa-css-prefix}-mars-stroke:before {
+    @include ext-declare-fa-var($fa-var-mars-stroke);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mars-stroke-v {
+  .#{$fa-css-prefix}-mars-stroke-v:before {
+    @include ext-declare-fa-var($fa-var-mars-stroke-v);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mars-stroke-h {
+  .#{$fa-css-prefix}-mars-stroke-h:before {
+    @include ext-declare-fa-var($fa-var-mars-stroke-h);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-neuter {
+  .#{$fa-css-prefix}-neuter:before {
+    @include ext-declare-fa-var($fa-var-neuter);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-genderless {
+  .#{$fa-css-prefix}-genderless:before {
+    @include ext-declare-fa-var($fa-var-genderless);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-facebook-official {
+  .#{$fa-css-prefix}-facebook-official:before {
+    @include ext-declare-fa-var($fa-var-facebook-official);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pinterest-p {
+  .#{$fa-css-prefix}-pinterest-p:before {
+    @include ext-declare-fa-var($fa-var-pinterest-p);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-whatsapp {
+  .#{$fa-css-prefix}-whatsapp:before {
+    @include ext-declare-fa-var($fa-var-whatsapp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-server {
+  .#{$fa-css-prefix}-server:before {
+    @include ext-declare-fa-var($fa-var-server);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-plus {
+  .#{$fa-css-prefix}-user-plus:before {
+    @include ext-declare-fa-var($fa-var-user-plus);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-times {
+  .#{$fa-css-prefix}-user-times:before {
+    @include ext-declare-fa-var($fa-var-user-times);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hotel or $ext-use-fa-bed {
+  .#{$fa-css-prefix}-hotel:before,
+  .#{$fa-css-prefix}-bed:before {
+    @include ext-declare-fa-var($fa-var-bed);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-viacoin {
+  .#{$fa-css-prefix}-viacoin:before {
+    @include ext-declare-fa-var($fa-var-viacoin);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-train {
+  .#{$fa-css-prefix}-train:before {
+    @include ext-declare-fa-var($fa-var-train);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-subway {
+  .#{$fa-css-prefix}-subway:before {
+    @include ext-declare-fa-var($fa-var-subway);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-medium {
+  .#{$fa-css-prefix}-medium:before {
+    @include ext-declare-fa-var($fa-var-medium);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-yc or $ext-use-fa-y-combinator {
+  .#{$fa-css-prefix}-yc:before,
+  .#{$fa-css-prefix}-y-combinator:before {
+    @include ext-declare-fa-var($fa-var-y-combinator);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-optin-monster {
+  .#{$fa-css-prefix}-optin-monster:before {
+    @include ext-declare-fa-var($fa-var-optin-monster);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-opencart {
+  .#{$fa-css-prefix}-opencart:before {
+    @include ext-declare-fa-var($fa-var-opencart);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-expeditedssl {
+  .#{$fa-css-prefix}-expeditedssl:before {
+    @include ext-declare-fa-var($fa-var-expeditedssl);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-battery-4 or $ext-use-fa-battery or $ext-use-fa-battery-full {
+  .#{$fa-css-prefix}-battery-4:before,
+  .#{$fa-css-prefix}-battery:before,
+  .#{$fa-css-prefix}-battery-full:before {
+    @include ext-declare-fa-var($fa-var-battery-full);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-battery-3 or $ext-use-fa-battery-three-quarters {
+  .#{$fa-css-prefix}-battery-3:before,
+  .#{$fa-css-prefix}-battery-three-quarters:before {
+    @include ext-declare-fa-var($fa-var-battery-three-quarters);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-battery-2 or $ext-use-fa-battery-half {
+  .#{$fa-css-prefix}-battery-2:before,
+  .#{$fa-css-prefix}-battery-half:before {
+    @include ext-declare-fa-var($fa-var-battery-half);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-battery-1 or $ext-use-fa-battery-quarter {
+  .#{$fa-css-prefix}-battery-1:before,
+  .#{$fa-css-prefix}-battery-quarter:before {
+    @include ext-declare-fa-var($fa-var-battery-quarter);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-battery-0 or $ext-use-fa-battery-empty {
+  .#{$fa-css-prefix}-battery-0:before,
+  .#{$fa-css-prefix}-battery-empty:before {
+    @include ext-declare-fa-var($fa-var-battery-empty);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mouse-pointer {
+  .#{$fa-css-prefix}-mouse-pointer:before {
+    @include ext-declare-fa-var($fa-var-mouse-pointer);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-i-cursor {
+  .#{$fa-css-prefix}-i-cursor:before {
+    @include ext-declare-fa-var($fa-var-i-cursor);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-object-group {
+  .#{$fa-css-prefix}-object-group:before {
+    @include ext-declare-fa-var($fa-var-object-group);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-object-ungroup {
+  .#{$fa-css-prefix}-object-ungroup:before {
+    @include ext-declare-fa-var($fa-var-object-ungroup);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sticky-note {
+  .#{$fa-css-prefix}-sticky-note:before {
+    @include ext-declare-fa-var($fa-var-sticky-note);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-sticky-note-o {
+  .#{$fa-css-prefix}-sticky-note-o:before {
+    @include ext-declare-fa-var($fa-var-sticky-note-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-jcb {
+  .#{$fa-css-prefix}-cc-jcb:before {
+    @include ext-declare-fa-var($fa-var-cc-jcb);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-cc-diners-club {
+  .#{$fa-css-prefix}-cc-diners-club:before {
+    @include ext-declare-fa-var($fa-var-cc-diners-club);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-clone {
+  .#{$fa-css-prefix}-clone:before {
+    @include ext-declare-fa-var($fa-var-clone);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-balance-scale {
+  .#{$fa-css-prefix}-balance-scale:before {
+    @include ext-declare-fa-var($fa-var-balance-scale);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hourglass-o {
+  .#{$fa-css-prefix}-hourglass-o:before {
+    @include ext-declare-fa-var($fa-var-hourglass-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hourglass-1 or $ext-use-fa-hourglass-start {
+  .#{$fa-css-prefix}-hourglass-1:before,
+  .#{$fa-css-prefix}-hourglass-start:before {
+    @include ext-declare-fa-var($fa-var-hourglass-start);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hourglass-2 or $ext-use-fa-hourglass-half {
+  .#{$fa-css-prefix}-hourglass-2:before,
+  .#{$fa-css-prefix}-hourglass-half:before {
+    @include ext-declare-fa-var($fa-var-hourglass-half);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hourglass-3 or $ext-use-fa-hourglass-end {
+  .#{$fa-css-prefix}-hourglass-3:before,
+  .#{$fa-css-prefix}-hourglass-end:before {
+    @include ext-declare-fa-var($fa-var-hourglass-end);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hourglass {
+  .#{$fa-css-prefix}-hourglass:before {
+    @include ext-declare-fa-var($fa-var-hourglass);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-grab-o or $ext-use-fa-hand-rock-o {
+  .#{$fa-css-prefix}-hand-grab-o:before,
+  .#{$fa-css-prefix}-hand-rock-o:before {
+    @include ext-declare-fa-var($fa-var-hand-rock-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-stop-o or $ext-use-fa-hand-paper-o {
+  .#{$fa-css-prefix}-hand-stop-o:before,
+  .#{$fa-css-prefix}-hand-paper-o:before {
+    @include ext-declare-fa-var($fa-var-hand-paper-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-scissors-o {
+  .#{$fa-css-prefix}-hand-scissors-o:before {
+    @include ext-declare-fa-var($fa-var-hand-scissors-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-lizard-o {
+  .#{$fa-css-prefix}-hand-lizard-o:before {
+    @include ext-declare-fa-var($fa-var-hand-lizard-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-spock-o {
+  .#{$fa-css-prefix}-hand-spock-o:before {
+    @include ext-declare-fa-var($fa-var-hand-spock-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-pointer-o {
+  .#{$fa-css-prefix}-hand-pointer-o:before {
+    @include ext-declare-fa-var($fa-var-hand-pointer-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hand-peace-o {
+  .#{$fa-css-prefix}-hand-peace-o:before {
+    @include ext-declare-fa-var($fa-var-hand-peace-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-trademark {
+  .#{$fa-css-prefix}-trademark:before {
+    @include ext-declare-fa-var($fa-var-trademark);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-registered {
+  .#{$fa-css-prefix}-registered:before {
+    @include ext-declare-fa-var($fa-var-registered);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-creative-commons {
+  .#{$fa-css-prefix}-creative-commons:before {
+    @include ext-declare-fa-var($fa-var-creative-commons);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gg {
+  .#{$fa-css-prefix}-gg:before {
+    @include ext-declare-fa-var($fa-var-gg);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gg-circle {
+  .#{$fa-css-prefix}-gg-circle:before {
+    @include ext-declare-fa-var($fa-var-gg-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tripadvisor {
+  .#{$fa-css-prefix}-tripadvisor:before {
+    @include ext-declare-fa-var($fa-var-tripadvisor);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-odnoklassniki {
+  .#{$fa-css-prefix}-odnoklassniki:before {
+    @include ext-declare-fa-var($fa-var-odnoklassniki);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-odnoklassniki-square {
+  .#{$fa-css-prefix}-odnoklassniki-square:before {
+    @include ext-declare-fa-var($fa-var-odnoklassniki-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-get-pocket {
+  .#{$fa-css-prefix}-get-pocket:before {
+    @include ext-declare-fa-var($fa-var-get-pocket);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wikipedia-w {
+  .#{$fa-css-prefix}-wikipedia-w:before {
+    @include ext-declare-fa-var($fa-var-wikipedia-w);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-safari {
+  .#{$fa-css-prefix}-safari:before {
+    @include ext-declare-fa-var($fa-var-safari);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-chrome {
+  .#{$fa-css-prefix}-chrome:before {
+    @include ext-declare-fa-var($fa-var-chrome);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-firefox {
+  .#{$fa-css-prefix}-firefox:before {
+    @include ext-declare-fa-var($fa-var-firefox);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-opera {
+  .#{$fa-css-prefix}-opera:before {
+    @include ext-declare-fa-var($fa-var-opera);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-internet-explorer {
+  .#{$fa-css-prefix}-internet-explorer:before {
+    @include ext-declare-fa-var($fa-var-internet-explorer);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-tv or $ext-use-fa-television {
+  .#{$fa-css-prefix}-tv:before,
+  .#{$fa-css-prefix}-television:before {
+    @include ext-declare-fa-var($fa-var-television);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-contao {
+  .#{$fa-css-prefix}-contao:before {
+    @include ext-declare-fa-var($fa-var-contao);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-500px {
+  .#{$fa-css-prefix}-500px:before {
+    @include ext-declare-fa-var($fa-var-500px);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-amazon {
+  .#{$fa-css-prefix}-amazon:before {
+    @include ext-declare-fa-var($fa-var-amazon);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar-plus-o {
+  .#{$fa-css-prefix}-calendar-plus-o:before {
+    @include ext-declare-fa-var($fa-var-calendar-plus-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar-minus-o {
+  .#{$fa-css-prefix}-calendar-minus-o:before {
+    @include ext-declare-fa-var($fa-var-calendar-minus-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar-times-o {
+  .#{$fa-css-prefix}-calendar-times-o:before {
+    @include ext-declare-fa-var($fa-var-calendar-times-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-calendar-check-o {
+  .#{$fa-css-prefix}-calendar-check-o:before {
+    @include ext-declare-fa-var($fa-var-calendar-check-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-industry {
+  .#{$fa-css-prefix}-industry:before {
+    @include ext-declare-fa-var($fa-var-industry);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-map-pin {
+  .#{$fa-css-prefix}-map-pin:before {
+    @include ext-declare-fa-var($fa-var-map-pin);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-map-signs {
+  .#{$fa-css-prefix}-map-signs:before {
+    @include ext-declare-fa-var($fa-var-map-signs);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-map-o {
+  .#{$fa-css-prefix}-map-o:before {
+    @include ext-declare-fa-var($fa-var-map-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-map {
+  .#{$fa-css-prefix}-map:before {
+    @include ext-declare-fa-var($fa-var-map);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-commenting {
+  .#{$fa-css-prefix}-commenting:before {
+    @include ext-declare-fa-var($fa-var-commenting);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-commenting-o {
+  .#{$fa-css-prefix}-commenting-o:before {
+    @include ext-declare-fa-var($fa-var-commenting-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-houzz {
+  .#{$fa-css-prefix}-houzz:before {
+    @include ext-declare-fa-var($fa-var-houzz);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vimeo {
+  .#{$fa-css-prefix}-vimeo:before {
+    @include ext-declare-fa-var($fa-var-vimeo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-black-tie {
+  .#{$fa-css-prefix}-black-tie:before {
+    @include ext-declare-fa-var($fa-var-black-tie);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fonticons {
+  .#{$fa-css-prefix}-fonticons:before {
+    @include ext-declare-fa-var($fa-var-fonticons);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-reddit-alien {
+  .#{$fa-css-prefix}-reddit-alien:before {
+    @include ext-declare-fa-var($fa-var-reddit-alien);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-edge {
+  .#{$fa-css-prefix}-edge:before {
+    @include ext-declare-fa-var($fa-var-edge);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-credit-card-alt {
+  .#{$fa-css-prefix}-credit-card-alt:before {
+    @include ext-declare-fa-var($fa-var-credit-card-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-codiepie {
+  .#{$fa-css-prefix}-codiepie:before {
+    @include ext-declare-fa-var($fa-var-codiepie);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-modx {
+  .#{$fa-css-prefix}-modx:before {
+    @include ext-declare-fa-var($fa-var-modx);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-usb {
+  .#{$fa-css-prefix}-usb:before {
+    @include ext-declare-fa-var($fa-var-usb);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-product-hunt {
+  .#{$fa-css-prefix}-product-hunt:before {
+    @include ext-declare-fa-var($fa-var-product-hunt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-mixcloud {
+  .#{$fa-css-prefix}-mixcloud:before {
+    @include ext-declare-fa-var($fa-var-mixcloud);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-scribd {
+  .#{$fa-css-prefix}-scribd:before {
+    @include ext-declare-fa-var($fa-var-scribd);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pause-circle {
+  .#{$fa-css-prefix}-pause-circle:before {
+    @include ext-declare-fa-var($fa-var-pause-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pause-circle-o {
+  .#{$fa-css-prefix}-pause-circle-o:before {
+    @include ext-declare-fa-var($fa-var-pause-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stop-circle {
+  .#{$fa-css-prefix}-stop-circle:before {
+    @include ext-declare-fa-var($fa-var-stop-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-stop-circle-o {
+  .#{$fa-css-prefix}-stop-circle-o:before {
+    @include ext-declare-fa-var($fa-var-stop-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shopping-bag {
+  .#{$fa-css-prefix}-shopping-bag:before {
+    @include ext-declare-fa-var($fa-var-shopping-bag);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shopping-basket {
+  .#{$fa-css-prefix}-shopping-basket:before {
+    @include ext-declare-fa-var($fa-var-shopping-basket);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-hashtag {
+  .#{$fa-css-prefix}-hashtag:before {
+    @include ext-declare-fa-var($fa-var-hashtag);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bluetooth {
+  .#{$fa-css-prefix}-bluetooth:before {
+    @include ext-declare-fa-var($fa-var-bluetooth);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bluetooth-b {
+  .#{$fa-css-prefix}-bluetooth-b:before {
+    @include ext-declare-fa-var($fa-var-bluetooth-b);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-percent {
+  .#{$fa-css-prefix}-percent:before {
+    @include ext-declare-fa-var($fa-var-percent);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-gitlab {
+  .#{$fa-css-prefix}-gitlab:before {
+    @include ext-declare-fa-var($fa-var-gitlab);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wpbeginner {
+  .#{$fa-css-prefix}-wpbeginner:before {
+    @include ext-declare-fa-var($fa-var-wpbeginner);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wpforms {
+  .#{$fa-css-prefix}-wpforms:before {
+    @include ext-declare-fa-var($fa-var-wpforms);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envira {
+  .#{$fa-css-prefix}-envira:before {
+    @include ext-declare-fa-var($fa-var-envira);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-universal-access {
+  .#{$fa-css-prefix}-universal-access:before {
+    @include ext-declare-fa-var($fa-var-universal-access);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wheelchair-alt {
+  .#{$fa-css-prefix}-wheelchair-alt:before {
+    @include ext-declare-fa-var($fa-var-wheelchair-alt);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-question-circle-o {
+  .#{$fa-css-prefix}-question-circle-o:before {
+    @include ext-declare-fa-var($fa-var-question-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-blind {
+  .#{$fa-css-prefix}-blind:before {
+    @include ext-declare-fa-var($fa-var-blind);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-audio-description {
+  .#{$fa-css-prefix}-audio-description:before {
+    @include ext-declare-fa-var($fa-var-audio-description);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-volume-control-phone {
+  .#{$fa-css-prefix}-volume-control-phone:before {
+    @include ext-declare-fa-var($fa-var-volume-control-phone);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-braille {
+  .#{$fa-css-prefix}-braille:before {
+    @include ext-declare-fa-var($fa-var-braille);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-assistive-listening-systems {
+  .#{$fa-css-prefix}-assistive-listening-systems:before {
+    @include ext-declare-fa-var($fa-var-assistive-listening-systems);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-asl-interpreting or $ext-use-fa-american-sign-language-interpreting {
+  .#{$fa-css-prefix}-asl-interpreting:before,
+  .#{$fa-css-prefix}-american-sign-language-interpreting:before {
+    @include ext-declare-fa-var($fa-var-american-sign-language-interpreting);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-deafness or $ext-use-fa-hard-of-hearing or $ext-use-fa-deaf {
+  .#{$fa-css-prefix}-deafness:before,
+  .#{$fa-css-prefix}-hard-of-hearing:before,
+  .#{$fa-css-prefix}-deaf:before {
+    @include ext-declare-fa-var($fa-var-deaf);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-glide {
+  .#{$fa-css-prefix}-glide:before {
+    @include ext-declare-fa-var($fa-var-glide);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-glide-g {
+  .#{$fa-css-prefix}-glide-g:before {
+    @include ext-declare-fa-var($fa-var-glide-g);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-signing or $ext-use-fa-sign-language {
+  .#{$fa-css-prefix}-signing:before,
+  .#{$fa-css-prefix}-sign-language:before {
+    @include ext-declare-fa-var($fa-var-sign-language);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-low-vision {
+  .#{$fa-css-prefix}-low-vision:before {
+    @include ext-declare-fa-var($fa-var-low-vision);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-viadeo {
+  .#{$fa-css-prefix}-viadeo:before {
+    @include ext-declare-fa-var($fa-var-viadeo);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-viadeo-square {
+  .#{$fa-css-prefix}-viadeo-square:before {
+    @include ext-declare-fa-var($fa-var-viadeo-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-snapchat {
+  .#{$fa-css-prefix}-snapchat:before {
+    @include ext-declare-fa-var($fa-var-snapchat);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-snapchat-ghost {
+  .#{$fa-css-prefix}-snapchat-ghost:before {
+    @include ext-declare-fa-var($fa-var-snapchat-ghost);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-snapchat-square {
+  .#{$fa-css-prefix}-snapchat-square:before {
+    @include ext-declare-fa-var($fa-var-snapchat-square);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-pied-piper {
+  .#{$fa-css-prefix}-pied-piper:before {
+    @include ext-declare-fa-var($fa-var-pied-piper);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-first-order {
+  .#{$fa-css-prefix}-first-order:before {
+    @include ext-declare-fa-var($fa-var-first-order);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-yoast {
+  .#{$fa-css-prefix}-yoast:before {
+    @include ext-declare-fa-var($fa-var-yoast);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-themeisle {
+  .#{$fa-css-prefix}-themeisle:before {
+    @include ext-declare-fa-var($fa-var-themeisle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-google-plus-circle or $ext-use-fa-google-plus-official {
+  .#{$fa-css-prefix}-google-plus-circle:before,
+  .#{$fa-css-prefix}-google-plus-official:before {
+    @include ext-declare-fa-var($fa-var-google-plus-official);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-fa or $ext-use-fa-font-awesome {
+  .#{$fa-css-prefix}-fa:before,
+  .#{$fa-css-prefix}-font-awesome:before {
+    @include ext-declare-fa-var($fa-var-font-awesome);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-handshake-o {
+  .#{$fa-css-prefix}-handshake-o:before {
+    @include ext-declare-fa-var($fa-var-handshake-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envelope-open {
+  .#{$fa-css-prefix}-envelope-open:before {
+    @include ext-declare-fa-var($fa-var-envelope-open);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-envelope-open-o {
+  .#{$fa-css-prefix}-envelope-open-o:before {
+    @include ext-declare-fa-var($fa-var-envelope-open-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-linode {
+  .#{$fa-css-prefix}-linode:before {
+    @include ext-declare-fa-var($fa-var-linode);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-address-book {
+  .#{$fa-css-prefix}-address-book:before {
+    @include ext-declare-fa-var($fa-var-address-book);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-address-book-o {
+  .#{$fa-css-prefix}-address-book-o:before {
+    @include ext-declare-fa-var($fa-var-address-book-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vcard or $ext-use-fa-address-card {
+  .#{$fa-css-prefix}-vcard:before,
+  .#{$fa-css-prefix}-address-card:before {
+    @include ext-declare-fa-var($fa-var-address-card);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-vcard-o or $ext-use-fa-address-card-o {
+  .#{$fa-css-prefix}-vcard-o:before,
+  .#{$fa-css-prefix}-address-card-o:before {
+    @include ext-declare-fa-var($fa-var-address-card-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-circle {
+  .#{$fa-css-prefix}-user-circle:before {
+    @include ext-declare-fa-var($fa-var-user-circle);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-circle-o {
+  .#{$fa-css-prefix}-user-circle-o:before {
+    @include ext-declare-fa-var($fa-var-user-circle-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-user-o {
+  .#{$fa-css-prefix}-user-o:before {
+    @include ext-declare-fa-var($fa-var-user-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-id-badge {
+  .#{$fa-css-prefix}-id-badge:before {
+    @include ext-declare-fa-var($fa-var-id-badge);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-drivers-license or $ext-use-fa-id-card {
+  .#{$fa-css-prefix}-drivers-license:before,
+  .#{$fa-css-prefix}-id-card:before {
+    @include ext-declare-fa-var($fa-var-id-card);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-drivers-license-o or $ext-use-fa-id-card-o {
+  .#{$fa-css-prefix}-drivers-license-o:before,
+  .#{$fa-css-prefix}-id-card-o:before {
+    @include ext-declare-fa-var($fa-var-id-card-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-quora {
+  .#{$fa-css-prefix}-quora:before {
+    @include ext-declare-fa-var($fa-var-quora);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-free-code-camp {
+  .#{$fa-css-prefix}-free-code-camp:before {
+    @include ext-declare-fa-var($fa-var-free-code-camp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-telegram {
+  .#{$fa-css-prefix}-telegram:before {
+    @include ext-declare-fa-var($fa-var-telegram);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thermometer-4 or $ext-use-fa-thermometer or $ext-use-fa-thermometer-full {
+  .#{$fa-css-prefix}-thermometer-4:before,
+  .#{$fa-css-prefix}-thermometer:before,
+  .#{$fa-css-prefix}-thermometer-full:before {
+    @include ext-declare-fa-var($fa-var-thermometer-full);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thermometer-3 or $ext-use-fa-thermometer-three-quarters {
+  .#{$fa-css-prefix}-thermometer-3:before,
+  .#{$fa-css-prefix}-thermometer-three-quarters:before {
+    @include ext-declare-fa-var($fa-var-thermometer-three-quarters);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thermometer-2 or $ext-use-fa-thermometer-half {
+  .#{$fa-css-prefix}-thermometer-2:before,
+  .#{$fa-css-prefix}-thermometer-half:before {
+    @include ext-declare-fa-var($fa-var-thermometer-half);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thermometer-1 or $ext-use-fa-thermometer-quarter {
+  .#{$fa-css-prefix}-thermometer-1:before,
+  .#{$fa-css-prefix}-thermometer-quarter:before {
+    @include ext-declare-fa-var($fa-var-thermometer-quarter);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-thermometer-0 or $ext-use-fa-thermometer-empty {
+  .#{$fa-css-prefix}-thermometer-0:before,
+  .#{$fa-css-prefix}-thermometer-empty:before {
+    @include ext-declare-fa-var($fa-var-thermometer-empty);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-shower {
+  .#{$fa-css-prefix}-shower:before {
+    @include ext-declare-fa-var($fa-var-shower);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bathtub or $ext-use-fa-s15 or $ext-use-fa-bath {
+  .#{$fa-css-prefix}-bathtub:before,
+  .#{$fa-css-prefix}-s15:before,
+  .#{$fa-css-prefix}-bath:before {
+    @include ext-declare-fa-var($fa-var-bath);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-podcast {
+  .#{$fa-css-prefix}-podcast:before {
+    @include ext-declare-fa-var($fa-var-podcast);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-window-maximize {
+  .#{$fa-css-prefix}-window-maximize:before {
+    @include ext-declare-fa-var($fa-var-window-maximize);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-window-minimize {
+  .#{$fa-css-prefix}-window-minimize:before {
+    @include ext-declare-fa-var($fa-var-window-minimize);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-window-restore {
+  .#{$fa-css-prefix}-window-restore:before {
+    @include ext-declare-fa-var($fa-var-window-restore);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-times-rectangle or $ext-use-fa-window-close {
+  .#{$fa-css-prefix}-times-rectangle:before,
+  .#{$fa-css-prefix}-window-close:before {
+    @include ext-declare-fa-var($fa-var-window-close);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-times-rectangle-o or $ext-use-fa-window-close-o {
+  .#{$fa-css-prefix}-times-rectangle-o:before,
+  .#{$fa-css-prefix}-window-close-o:before {
+    @include ext-declare-fa-var($fa-var-window-close-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-bandcamp {
+  .#{$fa-css-prefix}-bandcamp:before {
+    @include ext-declare-fa-var($fa-var-bandcamp);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-grav {
+  .#{$fa-css-prefix}-grav:before {
+    @include ext-declare-fa-var($fa-var-grav);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-etsy {
+  .#{$fa-css-prefix}-etsy:before {
+    @include ext-declare-fa-var($fa-var-etsy);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-imdb {
+  .#{$fa-css-prefix}-imdb:before {
+    @include ext-declare-fa-var($fa-var-imdb);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-ravelry {
+  .#{$fa-css-prefix}-ravelry:before {
+    @include ext-declare-fa-var($fa-var-ravelry);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-eercast {
+  .#{$fa-css-prefix}-eercast:before {
+    @include ext-declare-fa-var($fa-var-eercast);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-microchip {
+  .#{$fa-css-prefix}-microchip:before {
+    @include ext-declare-fa-var($fa-var-microchip);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-snowflake-o {
+  .#{$fa-css-prefix}-snowflake-o:before {
+    @include ext-declare-fa-var($fa-var-snowflake-o);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-superpowers {
+  .#{$fa-css-prefix}-superpowers:before {
+    @include ext-declare-fa-var($fa-var-superpowers);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-wpexplorer {
+  .#{$fa-css-prefix}-wpexplorer:before {
+    @include ext-declare-fa-var($fa-var-wpexplorer);
+  }
+}
+
+@if $ext-use-all-fa-icons or $ext-use-fa-meetup {
+  .#{$fa-css-prefix}-meetup:before {
+    @include ext-declare-fa-var($fa-var-meetup);
+  }
+}
